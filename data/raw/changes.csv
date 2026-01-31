@@ -1,0 +1,2501 @@
+change_id,change_number,title,description,change_type,status,risk_level,computed_risk_score,affected_ci_id,affected_service_id,category,reason,implementation_plan,rollback_plan,test_plan,requested_by,assigned_to,approved_by,implemented_by,scheduled_start,scheduled_end,actual_start,actual_end,created_at,approved_at,closed_at,success,failure_reason,caused_incident
+fd94a78e-67af-4c75-94ca-3d2d6dcb7261,CHG0000001,Optimization: cloudfunction-dr-0023,Optimization for cloudfunction-dr-0023. This change involves optimization activities.,emergency,open,critical,0.9988,28baef15-150c-430e-82e0-360eb9adc360,dfee32ff-83a9-4f98-b35e-f6ec754fd1e6,Optimization,Required optimization to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply optimization
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Jennifer Martinez,Sarah Johnson,,,2026-01-09 08:09:29,2026-01-09 16:09:29,,,2025-12-28 08:09:29,,,,,false
+87a51fbd-e5f4-4619-ae8e-08a83e5038d3,CHG0000002,Maintenance Window: ecs-instance-stag-0242,Maintenance Window for ecs-instance-stag-0242. This change involves maintenance window activities.,standard,pending,high,0.6857,edef77e3-a7d2-4de9-8701-041db8585df4,eab1fa5b-ffa4-4067-bcce-6ce998814034,Maintenance Window,Required maintenance window to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply maintenance window
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Christopher Lee,Jessica Garcia,,,2025-12-26 11:47:12,2025-12-26 14:47:12,,,2025-12-20 11:47:12,,,,,false
+340432d4-7b38-420a-9b00-fd315a1f12cd,CHG0000003,Maintenance Window: web-prod-0178,Maintenance Window for web-prod-0178. This change involves maintenance window activities.,normal,resolved,high,0.7139,1a4189a7-ca6e-401a-9faf-db9ce91da8b0,,Maintenance Window,Required maintenance window to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply maintenance window
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",David Wilson,Christopher Lee,Jessica Garcia,Kevin Thompson,2025-12-02 05:48:44,2025-12-02 12:48:44,2025-12-02 05:45:44,2025-12-02 06:45:44,2025-11-21 05:48:44,2025-11-23 07:48:44,2025-12-02 06:45:44,true,,false
+b3c35422-dc65-427b-94a6-abb540404ad7,CHG0000004,Configuration Change: haproxy-prod-0176,Configuration Change for haproxy-prod-0176. This change involves configuration change activities.,normal,resolved,medium,0.5051,b6a78847-afbe-458d-8598-8b24a8aec9a3,,Configuration Change,Required configuration change to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply configuration change
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",James Brown,Daniel Harris,Michael Chen,Michelle Robinson,2026-01-31 17:05:20,2026-01-31 23:05:20,2026-01-31 17:29:20,2026-01-31 22:29:20,2026-01-21 17:05:20,2026-01-22 17:05:20,2026-01-31 22:29:20,true,,false
+4c495e37-a8eb-44db-8d69-03ed17175da5,CHG0000005,New Deployment: nfs-test-0054,New Deployment for nfs-test-0054. This change involves new deployment activities.,emergency,closed,high,0.7604,b3736eb9-b219-4e71-85b8-f6a773af7465,7fa559bc-2833-4dcf-ac5b-1e2401d09160,New Deployment,Required new deployment to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply new deployment
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Laura Clark,Emily Davis,Christopher Lee,Jessica Garcia,2025-12-16 07:50:56,2025-12-16 10:50:56,2025-12-16 08:03:56,2025-12-16 14:03:56,2025-12-05 07:50:56,2025-12-06 16:50:56,2025-12-16 14:03:56,true,,false
+153ac205-d187-4d48-85a7-d723510daf86,CHG0000006,Migration: kafka-prod-0180,Migration for kafka-prod-0180. This change involves migration activities.,normal,resolved,high,0.6999,ffbae98c-2274-4ceb-86e6-1ce97c090642,,Migration,Required migration to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply migration
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",James Brown,John Smith,Emily Davis,Laura Clark,2026-02-02 15:40:57,2026-02-02 23:40:57,2026-02-02 16:03:57,2026-02-02 22:03:57,2026-01-29 15:40:57,2026-01-30 14:40:57,2026-02-02 22:03:57,true,,false
+36e1e333-abb1-4c65-ae70-d5529af95d9a,CHG0000007,Capacity Expansion: auth-prod-0208,Capacity Expansion for auth-prod-0208. This change involves capacity expansion activities.,standard,pending,medium,0.3423,01ce1a73-0693-4883-89ee-1e755d1ad318,fa8b3d62-d044-4c49-8ca7-4efaa127c730,Capacity Expansion,Required capacity expansion to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply capacity expansion
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",James Brown,John Smith,,,2025-12-10 07:32:24,2025-12-10 09:32:24,,,2025-11-29 07:32:24,,,,,false
+6f35c0c0-488a-4dc7-8d55-27ef3bb06b36,CHG0000008,Hardware Upgrade: ceph-prod-0037,Hardware Upgrade for ceph-prod-0037. This change involves hardware upgrade activities.,standard,in_progress,low,0.1536,cab96c00-b6a3-4909-9176-6d0efba398d0,fa8b3d62-d044-4c49-8ca7-4efaa127c730,Hardware Upgrade,Required hardware upgrade to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply hardware upgrade
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Amanda White,Christopher Lee,Daniel Harris,Jessica Garcia,2026-01-05 16:08:19,2026-01-05 22:08:19,2026-01-05 15:38:19,,2025-12-29 16:08:19,2025-12-31 23:08:19,,,,false
+5c640c87-af79-4585-a621-81ce38cd326b,CHG0000009,Rollback: Infrastructure,Rollback for infrastructure. This change involves rollback activities.,standard,resolved,high,0.6082,,,Rollback,Required rollback to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply rollback
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Robert Taylor,Laura Clark,Daniel Harris,Emily Davis,2026-01-27 13:19:56,2026-01-27 21:19:56,2026-01-27 13:20:56,2026-01-27 16:20:56,2026-01-16 13:19:56,2026-01-16 21:19:56,2026-01-27 16:20:56,true,,false
+152d4307-0e25-4895-a52b-f7a2fe66e115,CHG0000010,Maintenance Window: Infrastructure,Maintenance Window for infrastructure. This change involves maintenance window activities.,normal,resolved,high,0.6479,,,Maintenance Window,Required maintenance window to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply maintenance window
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Michael Chen,Jennifer Martinez,Emily Davis,Kevin Thompson,2025-11-07 01:38:31,2025-11-07 09:38:31,2025-11-07 01:38:31,2025-11-07 04:38:31,2025-11-06 01:38:31,2025-11-06 16:38:31,2025-11-07 04:38:31,true,,false
+cb242dcd-1df6-4756-b822-3d2116807085,CHG0000011,Rollback: Infrastructure,Rollback for infrastructure. This change involves rollback activities.,standard,in_progress,low,0.1275,,,Rollback,Required rollback to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply rollback
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Michelle Robinson,Emily Davis,John Smith,David Wilson,2025-12-25 07:55:41,2025-12-25 15:55:41,2025-12-25 08:04:41,,2025-12-12 07:55:41,2025-12-13 14:55:41,,,,false
+0b82f669-049e-488f-afa8-54565933bf1d,CHG0000012,Software Update: Infrastructure,Software Update for infrastructure. This change involves software update activities.,normal,closed,medium,0.4555,,,Software Update,Required software update to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply software update
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Sarah Johnson,Robert Taylor,Emily Davis,Laura Clark,2026-01-13 18:24:22,2026-01-13 23:24:22,2026-01-13 18:45:22,2026-01-13 23:45:22,2026-01-05 18:24:22,2026-01-07 23:24:22,2026-01-13 23:45:22,true,,false
+5dc02f59-c478-4e6d-a173-17a407d379c4,CHG0000013,Configuration Change: web-prod-0170,Configuration Change for web-prod-0170. This change involves configuration change activities.,standard,resolved,medium,0.5914,8acb3662-2d76-44c8-89b0-54404124f32b,eab1fa5b-ffa4-4067-bcce-6ce998814034,Configuration Change,Required configuration change to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply configuration change
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Daniel Harris,Lisa Anderson,Daniel Harris,Sarah Johnson,2026-02-11 17:26:37,2026-02-11 19:26:37,2026-02-11 17:26:37,2026-02-11 21:26:37,2026-01-28 17:26:37,2026-01-29 22:26:37,2026-02-11 21:26:37,true,,false
+54279b16-0141-4cfd-99e6-3aa62aa6e374,CHG0000014,Rollback: sqs-prod-0118,Rollback for sqs-prod-0118. This change involves rollback activities.,standard,in_progress,critical,0.8211,2914ee21-f270-4813-a80a-6b81cc596da4,f24639db-705d-4ac1-a0be-3de9c28ea784,Rollback,Required rollback to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply rollback
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",John Smith,Kevin Thompson,Laura Clark,Jessica Garcia,2026-02-01 16:02:04,2026-02-01 19:02:04,2026-02-01 15:40:04,,2026-01-30 16:02:04,2026-01-31 13:02:04,,,,false
+5aa83637-714b-472b-a365-9ae42a026546,CHG0000015,New Deployment: memcached-deve-0189,New Deployment for memcached-deve-0189. This change involves new deployment activities.,normal,resolved,high,0.6079,c4babe32-8982-4b1f-914c-f802f712eae9,fa8b3d62-d044-4c49-8ca7-4efaa127c730,New Deployment,Required new deployment to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply new deployment
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Michael Chen,Michael Chen,Michael Chen,Robert Taylor,2025-11-24 03:02:57,2025-11-24 04:02:57,2025-11-24 02:59:57,2025-11-24 07:59:57,2025-11-16 03:02:57,2025-11-17 18:02:57,2025-11-24 07:59:57,true,,false
+c125e8f8-5568-4e30-9129-f8ea3e5c1144,CHG0000016,Optimization: elasticsearch-deve-0125,Optimization for elasticsearch-deve-0125. This change involves optimization activities.,emergency,closed,critical,1.0,79af56a6-fbc7-4166-bdee-e0b103f1bd95,5dde88a6-aa1b-4250-9502-369757c5ad99,Optimization,Required optimization to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply optimization
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Kevin Thompson,Jessica Garcia,Robert Taylor,Laura Clark,2025-11-20 16:12:49,2025-11-20 19:12:49,2025-11-20 16:18:49,2025-11-20 18:18:49,2025-11-19 16:12:49,2025-11-20 07:12:49,2025-11-20 18:18:49,true,,false
+bc1cd48c-9375-4eeb-af59-aacb313dccef,CHG0000017,Configuration Change: cloudfunction-stag-0060,Configuration Change for cloudfunction-stag-0060. This change involves configuration change activities.,standard,closed,high,0.6977,e24ecfcc-6f9f-490e-9281-595c7952c66a,5dde88a6-aa1b-4250-9502-369757c5ad99,Configuration Change,Required configuration change to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply configuration change
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Jessica Garcia,Sarah Johnson,John Smith,Emily Davis,2025-12-04 19:10:43,2025-12-05 00:10:43,2025-12-04 19:27:43,2025-12-05 01:27:43,2025-12-01 19:10:43,2025-12-02 16:10:43,2025-12-05 01:27:43,true,,false
+bca45d55-3fc1-4207-90b7-d1b50317bf32,CHG0000018,New Deployment: worker-stag-0071,New Deployment for worker-stag-0071. This change involves new deployment activities.,normal,in_progress,medium,0.3556,0f3a16ca-0be2-443d-b557-92ac62e59943,,New Deployment,Required new deployment to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply new deployment
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Laura Clark,Laura Clark,Laura Clark,James Brown,2025-12-17 05:17:53,2025-12-17 09:17:53,2025-12-17 05:29:53,,2025-12-04 05:17:53,2025-12-05 09:17:53,,,,false
+865ff17a-f987-494f-911e-9fd7a74b9d38,CHG0000019,New Deployment: ceph-prod-0037,New Deployment for ceph-prod-0037. This change involves new deployment activities.,standard,resolved,low,0.2169,cab96c00-b6a3-4909-9176-6d0efba398d0,fa8b3d62-d044-4c49-8ca7-4efaa127c730,New Deployment,Required new deployment to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply new deployment
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Jennifer Martinez,Michelle Robinson,Jessica Garcia,Jennifer Martinez,2025-11-22 06:22:17,2025-11-22 08:22:17,2025-11-22 06:24:17,2025-11-22 07:24:17,2025-11-19 06:22:17,2025-11-21 23:22:17,2025-11-22 07:24:17,true,,false
+1deb5b16-f787-4890-8eea-d3ed29fa5a88,CHG0000020,Migration: lambda-prod-0165,Migration for lambda-prod-0165. This change involves migration activities.,normal,resolved,high,0.7245,f18b28fa-242a-4295-83dd-7be8aa7598a1,3630dfb9-c14d-4f28-a4f2-4de2fc2c434a,Migration,Required migration to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply migration
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Jennifer Martinez,David Wilson,Laura Clark,Michelle Robinson,2025-11-16 18:49:13,2025-11-17 00:49:13,2025-11-16 18:47:13,2025-11-16 23:47:13,2025-11-05 18:49:13,2025-11-08 00:49:13,2025-11-16 23:47:13,true,,false
+51896741-5a79-47de-a51c-5b5430bad8eb,CHG0000021,Configuration Change: kafka-prod-0267,Configuration Change for kafka-prod-0267. This change involves configuration change activities.,normal,closed,medium,0.4801,4a796ef7-1079-4e16-913b-f2d9863de199,1b317d1b-9bdd-4c2b-bffa-5e53d04b6c26,Configuration Change,Required configuration change to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply configuration change
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",David Wilson,Sarah Johnson,Jessica Garcia,Robert Taylor,2025-11-22 03:33:48,2025-11-22 04:33:48,2025-11-22 03:07:48,2025-11-22 08:07:48,2025-11-12 03:33:48,2025-11-14 12:33:48,2025-11-22 08:07:48,false,Unexpected system behavior during change implementation,false
+a3787e27-7117-4349-bc18-401a97dd8af3,CHG0000022,Maintenance Window: ceph-prod-0275,Maintenance Window for ceph-prod-0275. This change involves maintenance window activities.,standard,resolved,medium,0.5842,90c0ec6b-2892-431c-abe5-bd5d8469c67c,eddf2c15-98d6-47b7-8dcc-5836e6fc0014,Maintenance Window,Required maintenance window to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply maintenance window
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",David Wilson,Laura Clark,Christopher Lee,Michael Chen,2025-12-21 04:55:00,2025-12-21 12:55:00,2025-12-21 05:13:00,2025-12-21 11:13:00,2025-12-12 04:55:00,2025-12-14 09:55:00,2025-12-21 11:13:00,true,,false
+d08655c5-015e-4330-aec8-cc1ecbb0bcb1,CHG0000023,New Deployment: nginx-test-0033,New Deployment for nginx-test-0033. This change involves new deployment activities.,normal,closed,medium,0.3013,e1f5ae2c-1237-433d-a4b6-f160db078fd9,541cbcda-42b7-490b-83b8-1e60396f364d,New Deployment,Required new deployment to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply new deployment
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Christopher Lee,Jennifer Martinez,James Brown,Jessica Garcia,2025-12-20 21:41:01,2025-12-21 02:41:01,2025-12-20 21:25:01,2025-12-21 00:25:01,2025-12-06 21:41:01,2025-12-09 18:41:01,2025-12-21 00:25:01,true,,false
+4477c46f-79a3-4e26-96a1-7dd8dc7d5990,CHG0000024,Maintenance Window: efs-prod-0211,Maintenance Window for efs-prod-0211. This change involves maintenance window activities.,emergency,open,medium,0.5228,c75e94a9-f9d0-4204-a6dc-7224cc52d1a9,eddf2c15-98d6-47b7-8dcc-5836e6fc0014,Maintenance Window,Required maintenance window to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply maintenance window
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",David Wilson,Amanda White,,,2026-01-29 03:14:22,2026-01-29 07:14:22,,,2026-01-18 03:14:22,,,,,false
+e64e00e2-5a7d-42da-a775-baffb17e14cf,CHG0000025,New Deployment: lambda-prod-0105,New Deployment for lambda-prod-0105. This change involves new deployment activities.,standard,closed,high,0.7384,a32029af-a989-488c-8538-87cb4c5b3f9d,8187278d-5d57-4ddc-9876-8c1f5b01debf,New Deployment,Required new deployment to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply new deployment
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Christopher Lee,Lisa Anderson,Laura Clark,Jessica Garcia,2026-01-19 06:44:40,2026-01-19 08:44:40,2026-01-19 06:54:40,2026-01-19 08:54:40,2026-01-16 06:44:40,2026-01-17 23:44:40,2026-01-19 08:54:40,true,,false
+0796b320-a6e2-4264-af10-8806d48a0777,CHG0000026,Capacity Expansion: Infrastructure,Capacity Expansion for infrastructure. This change involves capacity expansion activities.,standard,resolved,medium,0.4673,,,Capacity Expansion,Required capacity expansion to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply capacity expansion
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Daniel Harris,John Smith,Michael Chen,James Brown,2025-12-20 17:08:09,2025-12-20 19:08:09,2025-12-20 16:45:09,2025-12-20 20:45:09,2025-12-15 17:08:09,2025-12-17 05:08:09,2025-12-20 20:45:09,true,,false
+a155876c-0c37-4f7e-b97e-cc6fd8e86e80,CHG0000027,Optimization: varnish-prod-0282,Optimization for varnish-prod-0282. This change involves optimization activities.,normal,in_progress,medium,0.5669,a30c1b34-ca69-4935-a196-ae3b525253b3,fa8b3d62-d044-4c49-8ca7-4efaa127c730,Optimization,Required optimization to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply optimization
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Sarah Johnson,Michelle Robinson,Laura Clark,Emily Davis,2025-12-18 06:25:01,2025-12-18 13:25:01,2025-12-18 06:12:01,,2025-12-08 06:25:01,2025-12-09 11:25:01,,,,false
+b23eaff9-1e89-4dd4-b3ce-07d91435e426,CHG0000028,Security Patch: memcached-prod-0063,Security Patch for memcached-prod-0063. This change involves security patch activities.,normal,resolved,medium,0.3891,a1c3ce7f-e492-4001-a1dd-98a51742d908,eddf2c15-98d6-47b7-8dcc-5836e6fc0014,Security Patch,Required security patch to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply security patch
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",David Wilson,Emily Davis,Michelle Robinson,James Brown,2025-11-22 13:18:06,2025-11-22 15:18:06,2025-11-22 12:54:06,2025-11-22 17:54:06,2025-11-08 13:18:06,2025-11-10 04:18:06,2025-11-22 17:54:06,true,,false
+87c998ec-3894-43ff-986d-c21ab04da511,CHG0000029,Software Update: lambda-test-0173,Software Update for lambda-test-0173. This change involves software update activities.,standard,closed,critical,1.0,2dc68f81-3734-465e-9874-6d8fae443e1e,0ab6f5c5-ff64-4df7-9fb8-1a2df130551f,Software Update,Required software update to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply software update
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Robert Taylor,Jessica Garcia,Jennifer Martinez,David Wilson,2025-12-14 22:09:17,2025-12-15 02:09:17,2025-12-14 21:53:17,2025-12-15 02:53:17,2025-12-07 22:09:17,2025-12-09 07:09:17,2025-12-15 02:53:17,true,,false
+7a022d8f-452b-409c-b4fa-dec89519d8ce,CHG0000030,Hardware Upgrade: nginx-deve-0197,Hardware Upgrade for nginx-deve-0197. This change involves hardware upgrade activities.,standard,resolved,medium,0.4125,e4d0d5e9-0948-400c-b30e-2f7241066ea1,3fa0669e-f615-46f6-a5a6-1bce70f24056,Hardware Upgrade,Required hardware upgrade to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply hardware upgrade
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Jennifer Martinez,Michelle Robinson,Jennifer Martinez,Jennifer Martinez,2026-01-22 12:26:33,2026-01-22 14:26:33,2026-01-22 12:47:33,2026-01-22 16:47:33,2026-01-19 12:26:33,2026-01-21 02:26:33,2026-01-22 16:47:33,true,,false
+cc4f1424-b8c6-4c81-97d0-c2c79c274d10,CHG0000031,Configuration Change: Infrastructure,Configuration Change for infrastructure. This change involves configuration change activities.,normal,open,medium,0.3236,,,Configuration Change,Required configuration change to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply configuration change
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Michelle Robinson,Daniel Harris,,,2025-11-13 20:30:04,2025-11-14 01:30:04,,,2025-11-02 20:30:04,,,,,false
+f0e0eb87-db6d-4c88-9d8e-a4b674288a1a,CHG0000032,Security Patch: lambda-deve-0228,Security Patch for lambda-deve-0228. This change involves security patch activities.,normal,in_progress,medium,0.454,7eac3986-609b-43df-abd8-1f690b4c58de,,Security Patch,Required security patch to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply security patch
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Robert Taylor,James Brown,Laura Clark,Michelle Robinson,2026-01-04 10:12:04,2026-01-04 17:12:04,2026-01-04 10:16:04,,2025-12-22 10:12:04,2025-12-22 16:12:04,,,,false
+269e1b9f-7d54-4287-a623-657c217784dd,CHG0000033,Maintenance Window: lambda-stag-0260,Maintenance Window for lambda-stag-0260. This change involves maintenance window activities.,normal,resolved,high,0.7425,2d71b6f5-a756-42ea-9c11-bb3c054e6903,7f62fecd-2388-45ac-b906-de6be5343086,Maintenance Window,Required maintenance window to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply maintenance window
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Daniel Harris,Lisa Anderson,Daniel Harris,James Brown,2026-01-02 09:53:30,2026-01-02 15:53:30,2026-01-02 10:08:30,2026-01-02 11:08:30,2025-12-29 09:53:30,2025-12-30 07:53:30,2026-01-02 11:08:30,true,,false
+9dd13515-2e0b-4438-a91a-d040bf5226c1,CHG0000034,Capacity Expansion: auth-prod-0149,Capacity Expansion for auth-prod-0149. This change involves capacity expansion activities.,standard,resolved,critical,0.9688,4e4a0b9f-3a53-4c2c-823c-d92a1e871904,1b317d1b-9bdd-4c2b-bffa-5e53d04b6c26,Capacity Expansion,Required capacity expansion to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply capacity expansion
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",John Smith,Daniel Harris,Jessica Garcia,Jessica Garcia,2025-12-29 09:40:08,2025-12-29 10:40:08,2025-12-29 09:51:08,2025-12-29 15:51:08,2025-12-21 09:40:08,2025-12-22 20:40:08,2025-12-29 15:51:08,false,Unexpected system behavior during change implementation,false
+824bbbae-0f21-4e17-b64d-ccd55d693653,CHG0000035,Optimization: Infrastructure,Optimization for infrastructure. This change involves optimization activities.,standard,resolved,low,0.1716,,,Optimization,Required optimization to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply optimization
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Lisa Anderson,Jennifer Martinez,James Brown,Sarah Johnson,2025-12-09 00:29:11,2025-12-09 05:29:11,2025-12-09 00:57:11,2025-12-09 03:57:11,2025-12-05 00:29:11,2025-12-07 02:29:11,2025-12-09 03:57:11,true,,false
+9bcdaec6-db50-45e6-a865-8a4147becb17,CHG0000036,Hardware Upgrade: varnish-prod-0082,Hardware Upgrade for varnish-prod-0082. This change involves hardware upgrade activities.,emergency,resolved,medium,0.3739,341e3d74-6345-4aa2-9ed5-4014c04af43a,,Hardware Upgrade,Required hardware upgrade to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply hardware upgrade
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Amanda White,David Wilson,Michelle Robinson,Robert Taylor,2026-02-01 07:56:07,2026-02-01 12:56:07,2026-02-01 07:59:07,2026-02-01 10:59:07,2026-01-31 07:56:07,2026-01-31 21:56:07,2026-02-01 10:59:07,true,,false
+f9295aa0-b4d4-47fe-93e2-020238330d1a,CHG0000037,Migration: kafka-prod-0267,Migration for kafka-prod-0267. This change involves migration activities.,emergency,open,medium,0.5034,4a796ef7-1079-4e16-913b-f2d9863de199,1b317d1b-9bdd-4c2b-bffa-5e53d04b6c26,Migration,Required migration to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply migration
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Amanda White,Laura Clark,,,2025-11-15 10:24:56,2025-11-15 13:24:56,,,2025-11-14 10:24:56,,,,,false
+df640dfd-e870-40d5-8bef-cf7fa798ee19,CHG0000038,Hardware Upgrade: app-stag-0101,Hardware Upgrade for app-stag-0101. This change involves hardware upgrade activities.,emergency,closed,high,0.7821,55e6ee5c-7cdb-4d54-986a-643aa9c06e7d,,Hardware Upgrade,Required hardware upgrade to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply hardware upgrade
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Kevin Thompson,Jessica Garcia,Lisa Anderson,David Wilson,2025-11-24 14:15:39,2025-11-24 16:15:39,2025-11-24 14:37:39,2025-11-24 16:37:39,2025-11-11 14:15:39,2025-11-13 04:15:39,2025-11-24 16:37:39,true,,false
+f6fe5b98-fa34-4e4b-805a-7cbc8e5872f7,CHG0000039,Software Update: blob-stag-0088,Software Update for blob-stag-0088. This change involves software update activities.,normal,open,critical,0.8631,587e6082-6f52-46aa-9362-188335e0ee2f,e62f6318-4753-4bd5-8bd7-54a1f6528b9b,Software Update,Required software update to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply software update
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Daniel Harris,David Wilson,,,2026-01-15 12:33:43,2026-01-15 13:33:43,,,2026-01-06 12:33:43,,,,,false
+31428c2f-3f0e-43c1-b9b1-6c0e904bb962,CHG0000040,Configuration Change: memcached-deve-0189,Configuration Change for memcached-deve-0189. This change involves configuration change activities.,standard,resolved,medium,0.5591,c4babe32-8982-4b1f-914c-f802f712eae9,fa8b3d62-d044-4c49-8ca7-4efaa127c730,Configuration Change,Required configuration change to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply configuration change
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Lisa Anderson,Sarah Johnson,Michael Chen,Daniel Harris,2025-12-12 04:38:36,2025-12-12 12:38:36,2025-12-12 04:53:36,2025-12-12 05:53:36,2025-12-08 04:38:36,2025-12-09 06:38:36,2025-12-12 05:53:36,true,,false
+95b544b7-08e2-4361-b5da-589d1683e9c5,CHG0000041,New Deployment: blob-prod-0203,New Deployment for blob-prod-0203. This change involves new deployment activities.,standard,in_progress,medium,0.5403,a1623054-56e3-4975-aa73-5116ef57a49d,6284d7b3-c605-4370-93f9-97ab0da34b42,New Deployment,Required new deployment to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply new deployment
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Robert Taylor,Michelle Robinson,Lisa Anderson,Laura Clark,2026-01-01 06:55:27,2026-01-01 12:55:27,2026-01-01 07:13:27,,2025-12-24 06:55:27,2025-12-26 13:55:27,,,,false
+38c99e60-4f6e-4e34-aef1-a7bee2dbc9d4,CHG0000042,Security Patch: memcached-deve-0189,Security Patch for memcached-deve-0189. This change involves security patch activities.,standard,pending,high,0.7736,c4babe32-8982-4b1f-914c-f802f712eae9,fa8b3d62-d044-4c49-8ca7-4efaa127c730,Security Patch,Required security patch to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply security patch
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Daniel Harris,Amanda White,,,2025-11-24 09:48:47,2025-11-24 16:48:47,,,2025-11-17 09:48:47,,,,,false
+9fb40c75-9ff9-4c65-b16a-4a88f39f5d1f,CHG0000043,Hardware Upgrade: mysql-test-0111,Hardware Upgrade for mysql-test-0111. This change involves hardware upgrade activities.,standard,in_progress,medium,0.5984,9b9e4b36-1f4c-4067-8085-dce4167dbafe,1b317d1b-9bdd-4c2b-bffa-5e53d04b6c26,Hardware Upgrade,Required hardware upgrade to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply hardware upgrade
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Jennifer Martinez,David Wilson,John Smith,Jennifer Martinez,2026-01-30 17:09:57,2026-01-30 20:09:57,2026-01-30 17:04:57,,2026-01-22 17:09:57,2026-01-24 11:09:57,,,,false
+c63721f2-e955-4165-a51c-f9ae408ff85a,CHG0000044,Migration: redis-deve-0239,Migration for redis-deve-0239. This change involves migration activities.,emergency,in_progress,medium,0.5973,b291054c-6b87-408c-a78e-63e673fdd043,9fee8601-d9ae-4a80-8221-605196634a7b,Migration,Required migration to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply migration
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",David Wilson,Emily Davis,Amanda White,Jessica Garcia,2025-12-02 04:40:33,2025-12-02 11:40:33,2025-12-02 04:25:33,,2025-11-29 04:40:33,2025-11-29 14:40:33,,,,false
+c70964af-bb6d-40f2-ae06-4823b65184be,CHG0000045,Migration: payment-stag-0222,Migration for payment-stag-0222. This change involves migration activities.,standard,resolved,low,0.1625,e8a6fbf5-f04a-43fd-a22b-80345cc2762f,0b86f888-18fa-41d7-9f06-8e24157e707a,Migration,Required migration to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply migration
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Amanda White,Lisa Anderson,John Smith,Emily Davis,2025-12-24 00:43:28,2025-12-24 08:43:28,2025-12-24 01:12:28,2025-12-24 05:12:28,2025-12-10 00:43:28,2025-12-10 09:43:28,2025-12-24 05:12:28,false,Unexpected system behavior during change implementation,true
+10454b2d-7593-4195-a02c-aa0fe2f3b9eb,CHG0000046,Capacity Expansion: appservice-stag-0261,Capacity Expansion for appservice-stag-0261. This change involves capacity expansion activities.,standard,closed,medium,0.425,85deb876-35c6-42ea-bc50-f2e6dfa817e8,5dde88a6-aa1b-4250-9502-369757c5ad99,Capacity Expansion,Required capacity expansion to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply capacity expansion
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Christopher Lee,Amanda White,Jessica Garcia,Sarah Johnson,2026-01-09 01:19:30,2026-01-09 09:19:30,2026-01-09 01:10:30,2026-01-09 06:10:30,2026-01-08 01:19:30,2026-01-10 08:19:30,2026-01-09 06:10:30,true,,false
+89d08bda-f54a-4529-ae32-103f39465135,CHG0000047,Optimization: payment-stag-0222,Optimization for payment-stag-0222. This change involves optimization activities.,normal,resolved,high,0.7109,e8a6fbf5-f04a-43fd-a22b-80345cc2762f,0b86f888-18fa-41d7-9f06-8e24157e707a,Optimization,Required optimization to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply optimization
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Kevin Thompson,Robert Taylor,David Wilson,David Wilson,2025-11-19 07:45:34,2025-11-19 09:45:34,2025-11-19 08:14:34,2025-11-19 12:14:34,2025-11-07 07:45:34,2025-11-08 06:45:34,2025-11-19 12:14:34,true,,false
+aaf72a05-90de-4cef-96ce-0c1e52193a4f,CHG0000048,Rollback: batch-stag-0202,Rollback for batch-stag-0202. This change involves rollback activities.,normal,open,low,0.2762,bd2d94ed-97a0-4e3f-abb1-7cc625a5af40,a5f8b430-fb1f-4c8b-b042-5fe74b8fada9,Rollback,Required rollback to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply rollback
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",James Brown,Michelle Robinson,,,2025-11-08 22:50:11,2025-11-09 01:50:11,,,2025-11-07 22:50:11,,,,,false
+3d30ac95-8fc3-496c-b3d9-e68a1f4a9410,CHG0000049,Configuration Change: k8s-node-prod-0291,Configuration Change for k8s-node-prod-0291. This change involves configuration change activities.,normal,resolved,medium,0.3041,6c9a291e-f6aa-4d98-afe3-2a6a660576a0,541cbcda-42b7-490b-83b8-1e60396f364d,Configuration Change,Required configuration change to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply configuration change
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Michael Chen,Jennifer Martinez,Kevin Thompson,Lisa Anderson,2025-11-30 11:49:42,2025-11-30 14:49:42,2025-11-30 11:35:42,2025-11-30 17:35:42,2025-11-28 11:49:42,2025-11-28 19:49:42,2025-11-30 17:35:42,true,,false
+4fbcc480-9514-4fc0-a128-afbe076c348c,CHG0000050,Security Patch: haproxy-prod-0176,Security Patch for haproxy-prod-0176. This change involves security patch activities.,emergency,resolved,high,0.7934,b6a78847-afbe-458d-8598-8b24a8aec9a3,,Security Patch,Required security patch to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply security patch
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Robert Taylor,Jennifer Martinez,Jennifer Martinez,John Smith,2025-12-25 04:52:51,2025-12-25 10:52:51,2025-12-25 04:55:51,2025-12-25 06:55:51,2025-12-20 04:52:51,2025-12-22 01:52:51,2025-12-25 06:55:51,true,,false
+bfc39780-5b31-4786-b329-6c692c863818,CHG0000051,New Deployment: auth-prod-0208,New Deployment for auth-prod-0208. This change involves new deployment activities.,normal,in_progress,low,0.141,01ce1a73-0693-4883-89ee-1e755d1ad318,fa8b3d62-d044-4c49-8ca7-4efaa127c730,New Deployment,Required new deployment to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply new deployment
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",David Wilson,Jennifer Martinez,Jennifer Martinez,Jennifer Martinez,2026-01-29 22:44:34,2026-01-30 03:44:34,2026-01-29 23:06:34,,2026-01-16 22:44:34,2026-01-17 15:44:34,,,,false
+aa094cad-383c-4bcf-b145-d78c3f9ac4e1,CHG0000052,Security Patch: worker-prod-0259,Security Patch for worker-prod-0259. This change involves security patch activities.,normal,open,medium,0.3904,fb91483d-7e2d-456d-8439-8035e83a2e25,7fa559bc-2833-4dcf-ac5b-1e2401d09160,Security Patch,Required security patch to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply security patch
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Amanda White,Michael Chen,,,2026-01-03 03:04:25,2026-01-03 09:04:25,,,2025-12-24 03:04:25,,,,,false
+4a688011-4bd6-4c19-b751-f45c0dc9a6f5,CHG0000053,Security Patch: s3-stag-0030,Security Patch for s3-stag-0030. This change involves security patch activities.,standard,closed,medium,0.4485,7b4c47a9-c63e-4270-8002-cf7911abbd89,ee0ab07b-68f0-4e1e-b88f-9ceeb03e83c7,Security Patch,Required security patch to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply security patch
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Jennifer Martinez,Laura Clark,Laura Clark,Daniel Harris,2026-01-03 17:24:59,2026-01-04 01:24:59,2026-01-03 17:15:59,2026-01-03 20:15:59,2025-12-27 17:24:59,2025-12-28 00:24:59,2026-01-03 20:15:59,true,,false
+3e193577-50b8-4c16-85e0-e1b16c04acee,CHG0000054,Hardware Upgrade: elasticsearch-prod-0085,Hardware Upgrade for elasticsearch-prod-0085. This change involves hardware upgrade activities.,normal,resolved,medium,0.3689,d5d770a3-c85f-4af3-9210-a422df9135be,0b86f888-18fa-41d7-9f06-8e24157e707a,Hardware Upgrade,Required hardware upgrade to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply hardware upgrade
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",David Wilson,Michelle Robinson,Laura Clark,Michael Chen,2026-01-27 23:43:07,2026-01-28 06:43:07,2026-01-27 23:19:07,2026-01-28 00:19:07,2026-01-17 23:43:07,2026-01-18 13:43:07,2026-01-28 00:19:07,false,Unexpected system behavior during change implementation,false
+1173a31f-6257-40cf-98ae-735d1579185e,CHG0000055,Configuration Change: Infrastructure,Configuration Change for infrastructure. This change involves configuration change activities.,emergency,closed,medium,0.3017,,,Configuration Change,Required configuration change to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply configuration change
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Jessica Garcia,Michael Chen,Sarah Johnson,Lisa Anderson,2025-11-27 12:59:52,2025-11-27 17:59:52,2025-11-27 13:12:52,2025-11-27 19:12:52,2025-11-24 12:59:52,2025-11-26 14:59:52,2025-11-27 19:12:52,true,,false
+ae9ffd4d-05e7-4471-af7a-97b5fe398770,CHG0000056,Software Update: Infrastructure,Software Update for infrastructure. This change involves software update activities.,emergency,in_progress,medium,0.3659,,,Software Update,Required software update to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply software update
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Daniel Harris,Laura Clark,Emily Davis,Robert Taylor,2025-11-09 10:10:33,2025-11-09 14:10:33,2025-11-09 10:37:33,,2025-11-08 10:10:33,2025-11-09 11:10:33,,,,false
+d877d070-e035-44e8-81fd-eb0a3471bbde,CHG0000057,New Deployment: redis-stag-0146,New Deployment for redis-stag-0146. This change involves new deployment activities.,normal,closed,low,0.2109,5b789c9e-db0c-405f-b686-5fe0e7771dc9,9c1bf4ca-cf8a-451e-a0a4-3af8f7f10f65,New Deployment,Required new deployment to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply new deployment
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Laura Clark,Jennifer Martinez,Amanda White,Sarah Johnson,2026-01-15 09:52:39,2026-01-15 14:52:39,2026-01-15 10:03:39,2026-01-15 16:03:39,2026-01-01 09:52:39,2026-01-02 09:52:39,2026-01-15 16:03:39,true,,false
+7bf4d562-e3b6-4644-b5ee-dbf44d993b57,CHG0000058,Configuration Change: efs-deve-0232,Configuration Change for efs-deve-0232. This change involves configuration change activities.,standard,in_progress,medium,0.387,cc7f94d9-4b88-4b35-bed5-ed76c4fc502b,9e0f8d3a-b07a-4be3-8cea-977f89543359,Configuration Change,Required configuration change to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply configuration change
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Jennifer Martinez,Amanda White,Christopher Lee,James Brown,2026-01-11 22:57:48,2026-01-12 05:57:48,2026-01-11 23:18:48,,2026-01-06 22:57:48,2026-01-09 07:57:48,,,,false
+0db16291-93b3-44ba-95cd-3a625881832b,CHG0000059,Configuration Change: redis-test-0031,Configuration Change for redis-test-0031. This change involves configuration change activities.,standard,open,medium,0.5701,ee6793ad-1eaf-481c-a0f6-a97eeb85dcba,6284d7b3-c605-4370-93f9-97ab0da34b42,Configuration Change,Required configuration change to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply configuration change
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",David Wilson,David Wilson,,,2025-11-19 17:11:04,2025-11-20 01:11:04,,,2025-11-17 17:11:04,,,,,false
+8339e6eb-74ff-4d3a-a09b-ee5c2fb90390,CHG0000060,Maintenance Window: nginx-deve-0297,Maintenance Window for nginx-deve-0297. This change involves maintenance window activities.,normal,in_progress,low,0.2914,c20a31d9-6b75-4fa0-8f8a-7b433bbc9e25,ee0ab07b-68f0-4e1e-b88f-9ceeb03e83c7,Maintenance Window,Required maintenance window to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply maintenance window
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",James Brown,Laura Clark,Sarah Johnson,Jessica Garcia,2026-01-10 03:39:28,2026-01-10 05:39:28,2026-01-10 04:08:28,,2026-01-03 03:39:28,2026-01-04 21:39:28,,,,false
+e2002184-c090-4f31-9e56-ddf2562428ab,CHG0000061,Security Patch: sqs-test-0130,Security Patch for sqs-test-0130. This change involves security patch activities.,standard,open,medium,0.4116,9984c89c-b90f-4763-9f8c-bf9de161242c,3630dfb9-c14d-4f28-a4f2-4de2fc2c434a,Security Patch,Required security patch to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply security patch
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Christopher Lee,Kevin Thompson,,,2026-01-16 04:41:00,2026-01-16 11:41:00,,,2026-01-05 04:41:00,,,,,false
+e2e4407a-d7f1-4479-a1c8-56168268ca79,CHG0000062,Migration: k8s-node-prod-0291,Migration for k8s-node-prod-0291. This change involves migration activities.,standard,in_progress,high,0.7945,6c9a291e-f6aa-4d98-afe3-2a6a660576a0,541cbcda-42b7-490b-83b8-1e60396f364d,Migration,Required migration to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply migration
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Michael Chen,Laura Clark,Christopher Lee,David Wilson,2025-12-09 12:04:43,2025-12-09 15:04:43,2025-12-09 12:00:43,,2025-11-25 12:04:43,2025-11-27 00:04:43,,,,false
+610f0902-68ae-4fbd-b1d6-827d2771f240,CHG0000063,New Deployment: s3-deve-0143,New Deployment for s3-deve-0143. This change involves new deployment activities.,standard,open,critical,0.8258,0b31c2e5-c214-4363-a48f-3d68e5615aee,,New Deployment,Required new deployment to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply new deployment
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Jessica Garcia,Christopher Lee,,,2025-11-27 03:01:19,2025-11-27 04:01:19,,,2025-11-26 03:01:19,,,,,false
+da439623-7bdc-4048-ba07-ef0a473dfd1b,CHG0000064,Software Update: cloudfunction-prod-0257,Software Update for cloudfunction-prod-0257. This change involves software update activities.,normal,resolved,low,0.2614,af4c187f-3989-4bfb-933d-65a209173a7c,0b86f888-18fa-41d7-9f06-8e24157e707a,Software Update,Required software update to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply software update
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",James Brown,Michelle Robinson,Sarah Johnson,Kevin Thompson,2025-12-01 23:54:51,2025-12-02 04:54:51,2025-12-01 23:49:51,2025-12-02 04:49:51,2025-11-20 23:54:51,2025-11-23 22:54:51,2025-12-02 04:49:51,true,,false
+9b5a5032-435c-4134-b249-a6a852f93899,CHG0000065,Capacity Expansion: mysql-test-0234,Capacity Expansion for mysql-test-0234. This change involves capacity expansion activities.,emergency,resolved,medium,0.3356,6248a644-c43d-43eb-8614-d8a47f11dd1b,6284d7b3-c605-4370-93f9-97ab0da34b42,Capacity Expansion,Required capacity expansion to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply capacity expansion
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Jennifer Martinez,Christopher Lee,Jennifer Martinez,Kevin Thompson,2025-12-21 12:27:36,2025-12-21 14:27:36,2025-12-21 12:50:36,2025-12-21 16:50:36,2025-12-14 12:27:36,2025-12-17 04:27:36,2025-12-21 16:50:36,true,,false
+1f6f2223-b0fc-467e-8793-425a7715dbd4,CHG0000066,Software Update: nginx-deve-0297,Software Update for nginx-deve-0297. This change involves software update activities.,standard,closed,medium,0.3033,c20a31d9-6b75-4fa0-8f8a-7b433bbc9e25,ee0ab07b-68f0-4e1e-b88f-9ceeb03e83c7,Software Update,Required software update to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply software update
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",John Smith,Michelle Robinson,Sarah Johnson,Michael Chen,2025-12-14 11:57:49,2025-12-14 15:57:49,2025-12-14 11:41:49,2025-12-14 15:41:49,2025-12-05 11:57:49,2025-12-05 20:57:49,2025-12-14 15:41:49,true,,false
+f7b8c38f-3c83-4d42-a917-f0cd461c0809,CHG0000067,New Deployment: Infrastructure,New Deployment for infrastructure. This change involves new deployment activities.,normal,in_progress,low,0.1131,,,New Deployment,Required new deployment to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply new deployment
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",James Brown,Amanda White,Emily Davis,Jennifer Martinez,2026-02-04 22:57:22,2026-02-04 23:57:22,2026-02-04 23:04:22,,2026-01-22 22:57:22,2026-01-25 17:57:22,,,,false
+d7f9a764-7faf-41c2-8f7c-6487c1256783,CHG0000068,Maintenance Window: router-deve-0103,Maintenance Window for router-deve-0103. This change involves maintenance window activities.,emergency,resolved,medium,0.4614,8fa23238-effc-41e6-b2dc-a0c13b0b4710,1b317d1b-9bdd-4c2b-bffa-5e53d04b6c26,Maintenance Window,Required maintenance window to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply maintenance window
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Robert Taylor,Lisa Anderson,Amanda White,Robert Taylor,2026-01-01 14:42:31,2026-01-01 18:42:31,2026-01-01 14:13:31,2026-01-01 15:13:31,2025-12-26 14:42:31,2025-12-29 07:42:31,2026-01-01 15:13:31,true,,false
+1e2ca0df-d905-4d7b-a2c1-1dd5f3e6383d,CHG0000069,Hardware Upgrade: redis-stag-0186,Hardware Upgrade for redis-stag-0186. This change involves hardware upgrade activities.,normal,closed,low,0.1781,eae4ce4a-9426-49a3-86f7-6998848679bd,fa8b3d62-d044-4c49-8ca7-4efaa127c730,Hardware Upgrade,Required hardware upgrade to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply hardware upgrade
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",John Smith,Jennifer Martinez,Michael Chen,Robert Taylor,2025-12-17 23:04:33,2025-12-18 01:04:33,2025-12-17 22:43:33,2025-12-17 23:43:33,2025-12-08 23:04:33,2025-12-09 12:04:33,2025-12-17 23:43:33,true,,false
+60295894-a29b-4a70-8fa5-885005a37fad,CHG0000070,Optimization: cloudfunction-prod-0257,Optimization for cloudfunction-prod-0257. This change involves optimization activities.,emergency,open,critical,0.9128,af4c187f-3989-4bfb-933d-65a209173a7c,0b86f888-18fa-41d7-9f06-8e24157e707a,Optimization,Required optimization to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply optimization
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Laura Clark,Robert Taylor,,,2026-01-19 04:44:55,2026-01-19 06:44:55,,,2026-01-10 04:44:55,,,,,false
+b1350dc5-79bb-43e4-af40-f2ab541fc206,CHG0000071,Security Patch: web-stag-0199,Security Patch for web-stag-0199. This change involves security patch activities.,normal,resolved,high,0.7453,30011f97-4114-48c0-983a-ac6d08de411a,dfee32ff-83a9-4f98-b35e-f6ec754fd1e6,Security Patch,Required security patch to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply security patch
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Lisa Anderson,James Brown,Laura Clark,Jessica Garcia,2026-01-22 20:55:12,2026-01-22 21:55:12,2026-01-22 20:29:12,2026-01-22 22:29:12,2026-01-10 20:55:12,2026-01-11 11:55:12,2026-01-22 22:29:12,true,,false
+b9d355ac-1640-40ca-a889-105fef3361ec,CHG0000072,Migration: ceph-prod-0263,Migration for ceph-prod-0263. This change involves migration activities.,standard,closed,high,0.7207,262c0330-d03f-42d7-b663-bc28b974c10e,669a3c68-8c1e-4132-91d6-035a5d9eccd9,Migration,Required migration to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply migration
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Michael Chen,Jennifer Martinez,Laura Clark,Kevin Thompson,2025-12-26 19:32:22,2025-12-26 23:32:22,2025-12-26 19:51:22,2025-12-27 00:51:22,2025-12-23 19:32:22,2025-12-26 12:32:22,2025-12-27 00:51:22,true,,false
+c3273328-fb8e-4bbe-bb0d-24a416273dc9,CHG0000073,Hardware Upgrade: appservice-deve-0019,Hardware Upgrade for appservice-deve-0019. This change involves hardware upgrade activities.,standard,closed,medium,0.4623,7cb7d7d9-1844-4003-b179-f7da16e1749d,,Hardware Upgrade,Required hardware upgrade to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply hardware upgrade
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",John Smith,Christopher Lee,Kevin Thompson,Michael Chen,2025-11-09 08:35:42,2025-11-09 09:35:42,2025-11-09 08:46:42,2025-11-09 11:46:42,2025-11-03 08:35:42,2025-11-05 11:35:42,2025-11-09 11:46:42,true,,false
+6cf1b43b-3c0d-4529-a243-a23435b82fde,CHG0000074,New Deployment: cloudfunction-stag-0060,New Deployment for cloudfunction-stag-0060. This change involves new deployment activities.,standard,pending,high,0.7243,e24ecfcc-6f9f-490e-9281-595c7952c66a,5dde88a6-aa1b-4250-9502-369757c5ad99,New Deployment,Required new deployment to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply new deployment
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Emily Davis,Sarah Johnson,,,2026-01-11 05:48:22,2026-01-11 11:48:22,,,2026-01-02 05:48:22,,,,,false
+89b92277-8914-48bd-afe3-2654f7bcedd7,CHG0000075,Hardware Upgrade: analytics-stag-0218,Hardware Upgrade for analytics-stag-0218. This change involves hardware upgrade activities.,normal,closed,medium,0.3348,43678587-66aa-41ec-ab2a-b9478c447b9e,eddf2c15-98d6-47b7-8dcc-5836e6fc0014,Hardware Upgrade,Required hardware upgrade to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply hardware upgrade
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Robert Taylor,Christopher Lee,Michelle Robinson,Michael Chen,2025-11-20 13:48:25,2025-11-20 16:48:25,2025-11-20 14:10:25,2025-11-20 18:10:25,2025-11-15 13:48:25,2025-11-17 02:48:25,2025-11-20 18:10:25,true,,false
+a4934eda-3291-4d5b-b58e-16bd9640bb22,CHG0000076,Optimization: redis-prod-0154,Optimization for redis-prod-0154. This change involves optimization activities.,emergency,resolved,high,0.6255,6163938c-bc64-4e42-ba65-41e07480bde6,dfee32ff-83a9-4f98-b35e-f6ec754fd1e6,Optimization,Required optimization to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply optimization
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Emily Davis,Jessica Garcia,Emily Davis,Emily Davis,2025-11-11 22:11:23,2025-11-12 01:11:23,2025-11-11 22:36:23,2025-11-12 00:36:23,2025-11-05 22:11:23,2025-11-06 13:11:23,2025-11-12 00:36:23,true,,false
+ffbddfb3-ed20-4d0f-8f05-880410a45bf1,CHG0000077,Maintenance Window: redis-stag-0094,Maintenance Window for redis-stag-0094. This change involves maintenance window activities.,emergency,closed,high,0.7611,05b9211d-5d09-40a8-9470-a7f98512e39b,9fee8601-d9ae-4a80-8221-605196634a7b,Maintenance Window,Required maintenance window to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply maintenance window
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Michael Chen,Amanda White,Amanda White,Emily Davis,2026-01-19 14:40:41,2026-01-19 15:40:41,2026-01-19 14:29:41,2026-01-19 19:29:41,2026-01-15 14:40:41,2026-01-17 05:40:41,2026-01-19 19:29:41,true,,false
+4cab416b-88a7-4f2b-8e94-cc36ccbcb00a,CHG0000078,Software Update: reporting-stag-0216,Software Update for reporting-stag-0216. This change involves software update activities.,emergency,closed,medium,0.3744,55d8be61-f771-4a79-b854-61daaf9dc77a,669a3c68-8c1e-4132-91d6-035a5d9eccd9,Software Update,Required software update to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply software update
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",John Smith,Emily Davis,Laura Clark,Sarah Johnson,2025-12-26 21:36:12,2025-12-26 22:36:12,2025-12-26 21:10:12,2025-12-26 22:10:12,2025-12-14 21:36:12,2025-12-15 18:36:12,2025-12-26 22:10:12,true,,false
+7e373ea3-e597-41e9-900b-80a75991849d,CHG0000079,New Deployment: varnish-prod-0082,New Deployment for varnish-prod-0082. This change involves new deployment activities.,normal,resolved,medium,0.5727,341e3d74-6345-4aa2-9ed5-4014c04af43a,,New Deployment,Required new deployment to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply new deployment
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Emily Davis,John Smith,Laura Clark,James Brown,2026-01-14 20:49:18,2026-01-15 02:49:18,2026-01-14 20:30:18,2026-01-15 02:30:18,2026-01-12 20:49:18,2026-01-13 21:49:18,2026-01-15 02:30:18,true,,false
+731266e1-1bc5-4912-ba16-f287dcefe085,CHG0000080,New Deployment: notification-test-0209,New Deployment for notification-test-0209. This change involves new deployment activities.,normal,open,low,0.2542,0ac19ee3-e222-4517-abd9-a1813ccb8d98,1b317d1b-9bdd-4c2b-bffa-5e53d04b6c26,New Deployment,Required new deployment to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply new deployment
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Laura Clark,Jennifer Martinez,,,2026-01-17 21:45:31,2026-01-18 01:45:31,,,2026-01-07 21:45:31,,,,,false
+632b88e3-9a90-419b-8eb9-7fafbccfaa7a,CHG0000081,Migration: vpn-deve-0271,Migration for vpn-deve-0271. This change involves migration activities.,standard,in_progress,medium,0.4842,a1e31fdf-95a4-4fd9-84b7-21fa2c3ad6f7,0ab6f5c5-ff64-4df7-9fb8-1a2df130551f,Migration,Required migration to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply migration
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Jennifer Martinez,Emily Davis,Michelle Robinson,Robert Taylor,2025-11-30 02:32:09,2025-11-30 09:32:09,2025-11-30 02:19:09,,2025-11-20 02:32:09,2025-11-21 18:32:09,,,,false
+0d009989-d4cd-4619-88bf-25d23c1aa4d9,CHG0000082,Security Patch: activemq-test-0098,Security Patch for activemq-test-0098. This change involves security patch activities.,normal,resolved,high,0.6974,c123741a-8a28-48d1-b80c-d67773467c43,0b86f888-18fa-41d7-9f06-8e24157e707a,Security Patch,Required security patch to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply security patch
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Sarah Johnson,Jennifer Martinez,Jennifer Martinez,Sarah Johnson,2026-02-08 16:28:30,2026-02-08 19:28:30,2026-02-08 16:40:30,2026-02-08 18:40:30,2026-01-29 16:28:30,2026-01-30 11:28:30,2026-02-08 18:40:30,true,,false
+c82f835b-6549-48df-9d0f-a4619bd0c603,CHG0000083,Configuration Change: Infrastructure,Configuration Change for infrastructure. This change involves configuration change activities.,normal,closed,medium,0.3212,,,Configuration Change,Required configuration change to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply configuration change
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",James Brown,Kevin Thompson,David Wilson,David Wilson,2025-11-18 08:43:38,2025-11-18 12:43:38,2025-11-18 09:06:38,2025-11-18 15:06:38,2025-11-17 08:43:38,2025-11-18 02:43:38,2025-11-18 15:06:38,false,Unexpected system behavior during change implementation,true
+019d97d6-11a0-41b5-9ee4-fa58585939ab,CHG0000084,Maintenance Window: efs-prod-0211,Maintenance Window for efs-prod-0211. This change involves maintenance window activities.,normal,closed,medium,0.403,c75e94a9-f9d0-4204-a6dc-7224cc52d1a9,eddf2c15-98d6-47b7-8dcc-5836e6fc0014,Maintenance Window,Required maintenance window to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply maintenance window
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Jennifer Martinez,Laura Clark,Laura Clark,Robert Taylor,2026-01-15 21:49:21,2026-01-16 01:49:21,2026-01-15 21:32:21,2026-01-16 01:32:21,2026-01-07 21:49:21,2026-01-08 19:49:21,2026-01-16 01:32:21,true,,false
+f60864a0-6afd-433e-8502-c70fac71495f,CHG0000085,Migration: s3-prod-0032,Migration for s3-prod-0032. This change involves migration activities.,normal,in_progress,high,0.7251,f303daa9-7e8b-4613-ba94-4914a48a7d31,f9c1269b-0495-436f-b7f9-ba6e77ec6bda,Migration,Required migration to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply migration
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Emily Davis,Amanda White,David Wilson,Amanda White,2025-11-19 04:30:36,2025-11-19 09:30:36,2025-11-19 04:26:36,,2025-11-10 04:30:36,2025-11-11 10:30:36,,,,false
+3e09c7f6-0439-4ca9-b913-cb29d2d7fd9d,CHG0000086,Software Update: ecs-instance-prod-0272,Software Update for ecs-instance-prod-0272. This change involves software update activities.,standard,resolved,medium,0.3022,302f9205-eb2b-4f84-b7aa-cd3a408ba887,eab1fa5b-ffa4-4067-bcce-6ce998814034,Software Update,Required software update to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply software update
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Laura Clark,Daniel Harris,Robert Taylor,Lisa Anderson,2026-01-05 00:28:20,2026-01-05 04:28:20,2026-01-05 00:10:20,2026-01-05 06:10:20,2025-12-31 00:28:20,2026-01-02 13:28:20,2026-01-05 06:10:20,true,,false
+81452ac9-1bf4-428a-866c-2dfce6272d30,CHG0000087,Configuration Change: alb-stag-0121,Configuration Change for alb-stag-0121. This change involves configuration change activities.,normal,resolved,high,0.6162,1ac5c77a-1ecd-4c79-9153-48bfb8fe9d1e,ee0ab07b-68f0-4e1e-b88f-9ceeb03e83c7,Configuration Change,Required configuration change to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply configuration change
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Robert Taylor,Emily Davis,Robert Taylor,Amanda White,2025-12-30 19:46:36,2025-12-30 22:46:36,2025-12-30 19:33:36,2025-12-31 01:33:36,2025-12-21 19:46:36,2025-12-22 13:46:36,2025-12-31 01:33:36,true,,false
+80e35b9d-ed0f-459d-b4e7-d9c64d055ca5,CHG0000088,Rollback: Infrastructure,Rollback for infrastructure. This change involves rollback activities.,normal,pending,low,0.1857,,,Rollback,Required rollback to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply rollback
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Lisa Anderson,Laura Clark,,,2025-12-21 20:59:11,2025-12-22 00:59:11,,,2025-12-08 20:59:11,,,,,false
+c933719d-ff5b-4471-b9ab-dd688bd69d2b,CHG0000089,Software Update: haproxy-test-0284,Software Update for haproxy-test-0284. This change involves software update activities.,emergency,pending,high,0.7858,96d5f99f-d863-428d-9ac9-18bd6eca6450,3fa0669e-f615-46f6-a5a6-1bce70f24056,Software Update,Required software update to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply software update
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Lisa Anderson,Emily Davis,,,2025-12-23 11:51:39,2025-12-23 15:51:39,,,2025-12-15 11:51:39,,,,,false
+8c705257-2bfc-4423-bf7e-0a9fe02f425c,CHG0000090,Migration: ceph-prod-0140,Migration for ceph-prod-0140. This change involves migration activities.,normal,closed,medium,0.569,adf01df8-f06f-449c-985e-9e4d5c4ae820,6284d7b3-c605-4370-93f9-97ab0da34b42,Migration,Required migration to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply migration
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Jennifer Martinez,Christopher Lee,Sarah Johnson,Christopher Lee,2026-02-02 02:26:32,2026-02-02 08:26:32,2026-02-02 02:20:32,2026-02-02 06:20:32,2026-01-22 02:26:32,2026-01-22 18:26:32,2026-02-02 06:20:32,true,,false
+9fb81809-d655-4655-b118-25e4bbf191a7,CHG0000091,New Deployment: blob-prod-0117,New Deployment for blob-prod-0117. This change involves new deployment activities.,standard,closed,medium,0.4447,db0b339c-5280-4b30-a50f-fbbe101b1e7c,,New Deployment,Required new deployment to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply new deployment
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Sarah Johnson,James Brown,Kevin Thompson,Michelle Robinson,2026-01-24 12:24:21,2026-01-24 14:24:21,2026-01-24 12:30:21,2026-01-24 14:30:21,2026-01-12 12:24:21,2026-01-13 05:24:21,2026-01-24 14:30:21,true,,false
+39f65099-1085-4c7e-8d31-95efe7517ac3,CHG0000092,Security Patch: postgres-deve-0281,Security Patch for postgres-deve-0281. This change involves security patch activities.,normal,closed,medium,0.453,fa29e6eb-2a30-4468-a7d2-98fb9f86cc1f,eddf2c15-98d6-47b7-8dcc-5836e6fc0014,Security Patch,Required security patch to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply security patch
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Michelle Robinson,Emily Davis,Robert Taylor,Kevin Thompson,2025-12-01 19:50:39,2025-12-01 23:50:39,2025-12-01 19:43:39,2025-12-01 20:43:39,2025-11-19 19:50:39,2025-11-21 02:50:39,2025-12-01 20:43:39,false,Unexpected system behavior during change implementation,true
+72b11283-6347-4716-944b-fde261c54c9e,CHG0000093,Hardware Upgrade: lambda-prod-0048,Hardware Upgrade for lambda-prod-0048. This change involves hardware upgrade activities.,emergency,pending,critical,0.9443,0f72061d-a0d6-4e10-ba46-cbaedc365247,a5f8b430-fb1f-4c8b-b042-5fe74b8fada9,Hardware Upgrade,Required hardware upgrade to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply hardware upgrade
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Sarah Johnson,Laura Clark,,,2026-01-30 07:21:19,2026-01-30 11:21:19,,,2026-01-18 07:21:19,,,,,false
+0d77f90f-86c5-4a41-95db-bc8b2af8049a,CHG0000094,Software Update: Infrastructure,Software Update for infrastructure. This change involves software update activities.,normal,resolved,medium,0.4916,,,Software Update,Required software update to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply software update
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Robert Taylor,John Smith,Michelle Robinson,Jessica Garcia,2025-12-06 02:48:04,2025-12-06 04:48:04,2025-12-06 02:50:04,2025-12-06 07:50:04,2025-11-30 02:48:04,2025-11-30 17:48:04,2025-12-06 07:50:04,true,,false
+ba2a5e8a-88b6-4257-bcb6-cf9c1f48f0bd,CHG0000095,New Deployment: rabbitmq-prod-0014,New Deployment for rabbitmq-prod-0014. This change involves new deployment activities.,emergency,closed,critical,0.8911,1c04e7eb-f642-447d-af1b-4695f68b5815,,New Deployment,Required new deployment to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply new deployment
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Sarah Johnson,Lisa Anderson,James Brown,James Brown,2026-01-23 08:37:22,2026-01-23 13:37:22,2026-01-23 08:18:22,2026-01-23 10:18:22,2026-01-22 08:37:22,2026-01-23 12:37:22,2026-01-23 10:18:22,true,,false
+f436d92a-48ca-462e-afbc-422016bb93c4,CHG0000096,Software Update: app-test-0116,Software Update for app-test-0116. This change involves software update activities.,standard,in_progress,medium,0.5949,2a8cb3d9-3bc6-4761-93c3-06c64e79f707,,Software Update,Required software update to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply software update
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Amanda White,Michelle Robinson,David Wilson,Michael Chen,2025-11-18 16:05:58,2025-11-18 20:05:58,2025-11-18 16:15:58,,2025-11-06 16:05:58,2025-11-08 18:05:58,,,,false
+3352e84b-bbcc-47a7-b66d-e07606c3109c,CHG0000097,Migration: lambda-test-0192,Migration for lambda-test-0192. This change involves migration activities.,normal,open,low,0.1281,9afb888c-a5ad-411b-be47-dae081d205ff,3630dfb9-c14d-4f28-a4f2-4de2fc2c434a,Migration,Required migration to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply migration
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Lisa Anderson,James Brown,,,2025-11-27 03:06:44,2025-11-27 05:06:44,,,2025-11-25 03:06:44,,,,,false
+48a22967-a58d-4322-bd84-94ed410d94a8,CHG0000098,Migration: ecs-instance-prod-0086,Migration for ecs-instance-prod-0086. This change involves migration activities.,standard,resolved,medium,0.3129,dcf0d9b8-b04f-4e79-bd24-a476dda48f5d,8187278d-5d57-4ddc-9876-8c1f5b01debf,Migration,Required migration to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply migration
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",James Brown,Kevin Thompson,Michelle Robinson,Lisa Anderson,2026-01-19 08:00:52,2026-01-19 14:00:52,2026-01-19 07:40:52,2026-01-19 12:40:52,2026-01-08 08:00:52,2026-01-10 21:00:52,2026-01-19 12:40:52,true,,false
+3a8edeb6-41d7-467a-a300-9fbd0edacb15,CHG0000099,Capacity Expansion: reporting-dr-0110,Capacity Expansion for reporting-dr-0110. This change involves capacity expansion activities.,normal,closed,critical,0.841,f3d0f0ce-6c97-4ce1-aa41-c4ac1a25b6c7,,Capacity Expansion,Required capacity expansion to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply capacity expansion
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Michael Chen,Emily Davis,David Wilson,Sarah Johnson,2025-11-11 18:57:13,2025-11-11 23:57:13,2025-11-11 19:16:13,2025-11-12 00:16:13,2025-11-04 18:57:13,2025-11-06 22:57:13,2025-11-12 00:16:13,true,,false
+ce1a59eb-6eb8-46b0-9719-a25b80b722b8,CHG0000100,Security Patch: blob-prod-0203,Security Patch for blob-prod-0203. This change involves security patch activities.,standard,closed,critical,0.8275,a1623054-56e3-4975-aa73-5116ef57a49d,6284d7b3-c605-4370-93f9-97ab0da34b42,Security Patch,Required security patch to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply security patch
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Jennifer Martinez,Sarah Johnson,Michael Chen,Jennifer Martinez,2026-01-16 16:43:51,2026-01-16 19:43:51,2026-01-16 17:09:51,2026-01-16 19:09:51,2026-01-15 16:43:51,2026-01-18 16:43:51,2026-01-16 19:09:51,true,,false
+32a05af3-5f53-44f9-80ba-37cea2607263,CHG0000101,New Deployment: cloudfunction-stag-0133,New Deployment for cloudfunction-stag-0133. This change involves new deployment activities.,normal,pending,medium,0.3089,16136614-e26d-4045-92e5-9161e3b6a0c0,9e0f8d3a-b07a-4be3-8cea-977f89543359,New Deployment,Required new deployment to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply new deployment
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Sarah Johnson,Michelle Robinson,,,2026-01-25 16:45:57,2026-01-25 19:45:57,,,2026-01-11 16:45:57,,,,,false
+2dc314db-4905-4f92-9c9f-535e753ac1d8,CHG0000102,Configuration Change: vpn-prod-0113,Configuration Change for vpn-prod-0113. This change involves configuration change activities.,normal,closed,high,0.659,821d2685-c5c3-4885-aed5-764fb5c1aeaa,3630dfb9-c14d-4f28-a4f2-4de2fc2c434a,Configuration Change,Required configuration change to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply configuration change
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Michael Chen,Christopher Lee,Kevin Thompson,Lisa Anderson,2025-11-17 06:39:57,2025-11-17 14:39:57,2025-11-17 06:36:57,2025-11-17 12:36:57,2025-11-14 06:39:57,2025-11-14 19:39:57,2025-11-17 12:36:57,true,,false
+4fb2ccc6-4dc3-4f71-9408-de8886e1b4ad,CHG0000103,Maintenance Window: switch-stag-0006,Maintenance Window for switch-stag-0006. This change involves maintenance window activities.,normal,closed,high,0.724,7ab713f5-2f7a-4a55-995b-ea60ec06292d,ee0ab07b-68f0-4e1e-b88f-9ceeb03e83c7,Maintenance Window,Required maintenance window to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply maintenance window
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Michael Chen,Michael Chen,James Brown,Laura Clark,2026-02-09 12:41:20,2026-02-09 13:41:20,2026-02-09 12:31:20,2026-02-09 14:31:20,2026-01-26 12:41:20,2026-01-27 02:41:20,2026-02-09 14:31:20,true,,false
+0045eba4-5404-47a1-aff7-44298701cd04,CHG0000104,New Deployment: s3-stag-0030,New Deployment for s3-stag-0030. This change involves new deployment activities.,emergency,pending,critical,0.93,7b4c47a9-c63e-4270-8002-cf7911abbd89,ee0ab07b-68f0-4e1e-b88f-9ceeb03e83c7,New Deployment,Required new deployment to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply new deployment
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Jessica Garcia,Christopher Lee,,,2026-01-30 12:44:55,2026-01-30 15:44:55,,,2026-01-18 12:44:55,,,,,false
+d80660a6-5154-4ace-8d44-221ba49bd3d0,CHG0000105,New Deployment: redis-deve-0150,New Deployment for redis-deve-0150. This change involves new deployment activities.,standard,open,medium,0.4586,397d583b-3182-4e0a-a259-a59b5d305660,1b317d1b-9bdd-4c2b-bffa-5e53d04b6c26,New Deployment,Required new deployment to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply new deployment
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Laura Clark,Amanda White,,,2025-11-27 07:40:43,2025-11-27 10:40:43,,,2025-11-13 07:40:43,,,,,false
+59c1a50b-6c6c-439a-ba80-ab9da3ddfca5,CHG0000106,Security Patch: s3-dr-0148,Security Patch for s3-dr-0148. This change involves security patch activities.,normal,closed,medium,0.5011,220235ac-1664-4bf4-ab9a-3a5e780fff50,,Security Patch,Required security patch to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply security patch
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Sarah Johnson,Sarah Johnson,John Smith,Robert Taylor,2025-11-14 23:14:39,2025-11-15 07:14:39,2025-11-14 23:16:39,2025-11-15 03:16:39,2025-11-07 23:14:39,2025-11-08 08:14:39,2025-11-15 03:16:39,true,,false
+83d20189-6bd9-449b-9ff5-127653dc9764,CHG0000107,Maintenance Window: sqs-test-0265,Maintenance Window for sqs-test-0265. This change involves maintenance window activities.,emergency,resolved,medium,0.5201,961abb14-ec2f-4cd1-ace0-151d7f12dfc6,,Maintenance Window,Required maintenance window to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply maintenance window
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Jennifer Martinez,Christopher Lee,Jessica Garcia,Sarah Johnson,2025-11-29 02:33:36,2025-11-29 04:33:36,2025-11-29 02:29:36,2025-11-29 04:29:36,2025-11-22 02:33:36,2025-11-23 12:33:36,2025-11-29 04:29:36,true,,false
+48fba0f2-7753-430b-ad21-24201c8aa561,CHG0000108,Rollback: efs-prod-0022,Rollback for efs-prod-0022. This change involves rollback activities.,standard,closed,high,0.692,c345a6a4-7504-45ab-a46f-3495b0dd335a,e62f6318-4753-4bd5-8bd7-54a1f6528b9b,Rollback,Required rollback to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply rollback
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Kevin Thompson,Jessica Garcia,John Smith,Lisa Anderson,2025-11-16 10:33:50,2025-11-16 11:33:50,2025-11-16 10:16:50,2025-11-16 12:16:50,2025-11-08 10:33:50,2025-11-10 18:33:50,2025-11-16 12:16:50,true,,false
+d29717a3-5f13-4136-9e58-21db5a1b434c,CHG0000109,Software Update: Infrastructure,Software Update for infrastructure. This change involves software update activities.,standard,pending,high,0.7922,,,Software Update,Required software update to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply software update
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Robert Taylor,Robert Taylor,,,2025-12-07 07:03:09,2025-12-07 08:03:09,,,2025-12-05 07:03:09,,,,,false
+1c2e76f2-0e6f-43c6-bb32-850bee52ba3f,CHG0000110,New Deployment: Infrastructure,New Deployment for infrastructure. This change involves new deployment activities.,emergency,closed,high,0.6988,,,New Deployment,Required new deployment to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply new deployment
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",David Wilson,Michael Chen,David Wilson,Daniel Harris,2025-12-08 06:34:57,2025-12-08 13:34:57,2025-12-08 06:37:57,2025-12-08 12:37:57,2025-12-04 06:34:57,2025-12-05 10:34:57,2025-12-08 12:37:57,false,Unexpected system behavior during change implementation,true
+aa02634d-1efc-4149-a952-56a6ae9f38b5,CHG0000111,Configuration Change: sqs-stag-0158,Configuration Change for sqs-stag-0158. This change involves configuration change activities.,normal,in_progress,medium,0.4261,a762eb0b-9e18-4ff8-b23d-82a8d0777a7c,ad376f29-742f-47ef-8cc6-6deccdeaa394,Configuration Change,Required configuration change to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply configuration change
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Michelle Robinson,James Brown,Emily Davis,Amanda White,2025-11-26 12:33:42,2025-11-26 19:33:42,2025-11-26 12:26:42,,2025-11-22 12:33:42,2025-11-23 08:33:42,,,,false
+69d07033-61f7-400e-bbf8-476d64ab45b9,CHG0000112,Optimization: switch-dr-0200,Optimization for switch-dr-0200. This change involves optimization activities.,emergency,in_progress,medium,0.5333,ab0fc8f3-74aa-4ed7-9fed-e51b29d2ea4d,f9c1269b-0495-436f-b7f9-ba6e77ec6bda,Optimization,Required optimization to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply optimization
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Amanda White,Sarah Johnson,Lisa Anderson,Daniel Harris,2026-01-25 02:00:10,2026-01-25 08:00:10,2026-01-25 02:18:10,,2026-01-22 02:00:10,2026-01-24 05:00:10,,,,false
+22e7a71b-1605-4dae-9758-6b535e5c4f1d,CHG0000113,Maintenance Window: s3-deve-0096,Maintenance Window for s3-deve-0096. This change involves maintenance window activities.,normal,closed,medium,0.3351,b905cdb4-7dc5-444d-9a69-047d0ee27d6b,,Maintenance Window,Required maintenance window to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply maintenance window
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",John Smith,Jennifer Martinez,Emily Davis,Jessica Garcia,2025-11-12 14:53:17,2025-11-12 21:53:17,2025-11-12 14:49:17,2025-11-12 17:49:17,2025-11-04 14:53:17,2025-11-06 09:53:17,2025-11-12 17:49:17,true,,false
+228535b6-b69b-4c0f-a208-31cd9289cd25,CHG0000114,New Deployment: varnish-test-0142,New Deployment for varnish-test-0142. This change involves new deployment activities.,standard,closed,medium,0.3652,f965c2fd-a259-46b6-be63-8ae76bfa119f,3630dfb9-c14d-4f28-a4f2-4de2fc2c434a,New Deployment,Required new deployment to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply new deployment
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Sarah Johnson,Amanda White,Jennifer Martinez,James Brown,2025-11-30 04:45:45,2025-11-30 05:45:45,2025-11-30 04:17:45,2025-11-30 07:17:45,2025-11-20 04:45:45,2025-11-22 03:45:45,2025-11-30 07:17:45,true,,false
+8dc1a050-1770-4574-8be0-a2b875d32bd9,CHG0000115,Maintenance Window: redis-test-0270,Maintenance Window for redis-test-0270. This change involves maintenance window activities.,emergency,in_progress,medium,0.5062,488e0cb7-350f-4e36-95cd-e35d9a278276,8e1c81ff-9d7e-446d-849f-8ac123da8bef,Maintenance Window,Required maintenance window to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply maintenance window
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Emily Davis,Michael Chen,Emily Davis,Kevin Thompson,2025-12-19 16:15:22,2025-12-19 20:15:22,2025-12-19 16:36:22,,2025-12-12 16:15:22,2025-12-13 14:15:22,,,,false
+593312b1-28d5-44bc-a12c-9a29bd1664d1,CHG0000116,Security Patch: nfs-test-0102,Security Patch for nfs-test-0102. This change involves security patch activities.,normal,closed,low,0.2929,f8da0214-5659-4045-98d0-8824c856901e,ee0ab07b-68f0-4e1e-b88f-9ceeb03e83c7,Security Patch,Required security patch to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply security patch
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Christopher Lee,Jennifer Martinez,Sarah Johnson,Michelle Robinson,2025-11-25 10:46:37,2025-11-25 14:46:37,2025-11-25 10:29:37,2025-11-25 12:29:37,2025-11-14 10:46:37,2025-11-17 05:46:37,2025-11-25 12:29:37,true,,false
+47a9c4c3-4926-415d-a684-c09b2650e40b,CHG0000117,Security Patch: Infrastructure,Security Patch for infrastructure. This change involves security patch activities.,emergency,closed,high,0.7895,,,Security Patch,Required security patch to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply security patch
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Michelle Robinson,John Smith,John Smith,Lisa Anderson,2026-01-19 05:53:27,2026-01-19 11:53:27,2026-01-19 05:29:27,2026-01-19 09:29:27,2026-01-06 05:53:27,2026-01-08 10:53:27,2026-01-19 09:29:27,true,,false
+d335920c-a118-4e3b-9200-cfb5070f2fe0,CHG0000118,Software Update: app-stag-0172,Software Update for app-stag-0172. This change involves software update activities.,standard,pending,high,0.7229,be8068dd-2ddd-4788-a1ec-e795f8dfea6f,,Software Update,Required software update to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply software update
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Jennifer Martinez,Daniel Harris,,,2025-11-20 07:49:23,2025-11-20 08:49:23,,,2025-11-17 07:49:23,,,,,false
+8b7f762a-20f3-4427-bfdd-d237f8a1957d,CHG0000119,Optimization: redis-stag-0146,Optimization for redis-stag-0146. This change involves optimization activities.,standard,closed,high,0.7584,5b789c9e-db0c-405f-b686-5fe0e7771dc9,9c1bf4ca-cf8a-451e-a0a4-3af8f7f10f65,Optimization,Required optimization to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply optimization
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Daniel Harris,Jessica Garcia,Jessica Garcia,David Wilson,2026-01-29 16:09:57,2026-01-29 23:09:57,2026-01-29 16:35:57,2026-01-29 21:35:57,2026-01-17 16:09:57,2026-01-17 20:09:57,2026-01-29 21:35:57,true,,false
+d24b068c-57c7-4b63-844a-d4779e663095,CHG0000120,Rollback: mongodb-dr-0064,Rollback for mongodb-dr-0064. This change involves rollback activities.,emergency,pending,critical,0.9967,4af68ae3-dc8d-4c1e-92a6-8e0444f351b0,0b86f888-18fa-41d7-9f06-8e24157e707a,Rollback,Required rollback to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply rollback
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Amanda White,Jennifer Martinez,,,2026-01-28 08:44:38,2026-01-28 10:44:38,,,2026-01-23 08:44:38,,,,,false
+917820e4-4f89-4427-b1b3-57dabb7227f1,CHG0000121,Maintenance Window: reporting-stag-0072,Maintenance Window for reporting-stag-0072. This change involves maintenance window activities.,standard,resolved,high,0.7052,435d2b5f-571b-4398-b9e9-1ffa9c5f98e2,6284d7b3-c605-4370-93f9-97ab0da34b42,Maintenance Window,Required maintenance window to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply maintenance window
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Michael Chen,Jennifer Martinez,Kevin Thompson,Robert Taylor,2025-12-27 18:53:48,2025-12-27 21:53:48,2025-12-27 19:01:48,2025-12-28 00:01:48,2025-12-24 18:53:48,2025-12-26 01:53:48,2025-12-28 00:01:48,true,,false
+c8d7098c-3e04-4057-8c6a-f32746e264d7,CHG0000122,Security Patch: appservice-deve-0019,Security Patch for appservice-deve-0019. This change involves security patch activities.,standard,resolved,high,0.6563,7cb7d7d9-1844-4003-b179-f7da16e1749d,,Security Patch,Required security patch to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply security patch
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Christopher Lee,Jennifer Martinez,Laura Clark,Daniel Harris,2025-12-18 16:32:34,2025-12-18 23:32:34,2025-12-18 16:55:34,2025-12-18 19:55:34,2025-12-09 16:32:34,2025-12-10 01:32:34,2025-12-18 19:55:34,true,,false
+8e53237d-34f6-4a63-85f5-c3377d836306,CHG0000123,Software Update: blob-stag-0050,Software Update for blob-stag-0050. This change involves software update activities.,normal,closed,low,0.1932,6131ab6e-0057-4da2-9f61-8a411e99e18a,9ce9f7de-26d1-44ff-a36f-b76bcde19def,Software Update,Required software update to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply software update
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Sarah Johnson,James Brown,Jessica Garcia,Daniel Harris,2025-12-02 03:20:12,2025-12-02 04:20:12,2025-12-02 03:50:12,2025-12-02 05:50:12,2025-11-19 03:20:12,2025-11-19 12:20:12,2025-12-02 05:50:12,true,,false
+eedf2b94-62bc-4eec-8595-abb826b6a3f3,CHG0000124,Software Update: mysql-test-0234,Software Update for mysql-test-0234. This change involves software update activities.,standard,closed,low,0.1581,6248a644-c43d-43eb-8614-d8a47f11dd1b,6284d7b3-c605-4370-93f9-97ab0da34b42,Software Update,Required software update to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply software update
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Michelle Robinson,Lisa Anderson,Michelle Robinson,Emily Davis,2025-12-02 15:26:48,2025-12-02 19:26:48,2025-12-02 15:53:48,2025-12-02 18:53:48,2025-11-29 15:26:48,2025-12-01 03:26:48,2025-12-02 18:53:48,true,,false
+1b308f30-76c6-487d-a884-b3ef0c2cab14,CHG0000125,Migration: redis-dr-0074,Migration for redis-dr-0074. This change involves migration activities.,normal,closed,medium,0.5969,b6b297d7-adcd-444b-8d81-896d716589dd,,Migration,Required migration to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply migration
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",John Smith,Kevin Thompson,James Brown,Christopher Lee,2026-01-13 21:24:42,2026-01-13 22:24:42,2026-01-13 21:09:42,2026-01-14 00:09:42,2026-01-08 21:24:42,2026-01-09 15:24:42,2026-01-14 00:09:42,true,,false
+68c94e46-7a64-421f-bb54-a8cc8f93bdb0,CHG0000126,New Deployment: vpn-deve-0271,New Deployment for vpn-deve-0271. This change involves new deployment activities.,standard,resolved,medium,0.3592,a1e31fdf-95a4-4fd9-84b7-21fa2c3ad6f7,0ab6f5c5-ff64-4df7-9fb8-1a2df130551f,New Deployment,Required new deployment to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply new deployment
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Kevin Thompson,John Smith,Sarah Johnson,Jessica Garcia,2025-11-11 19:31:30,2025-11-12 01:31:30,2025-11-11 19:04:30,2025-11-11 20:04:30,2025-11-07 19:31:30,2025-11-08 14:31:30,2025-11-11 20:04:30,true,,false
+cca3b069-43ae-4e0a-91bd-a7c135c4fc7f,CHG0000127,Security Patch: vpn-prod-0147,Security Patch for vpn-prod-0147. This change involves security patch activities.,emergency,resolved,high,0.7593,0fd1ec77-7604-4432-97a6-1a34e8f26467,541cbcda-42b7-490b-83b8-1e60396f364d,Security Patch,Required security patch to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply security patch
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Michelle Robinson,Daniel Harris,Amanda White,Kevin Thompson,2025-11-10 04:18:17,2025-11-10 07:18:17,2025-11-10 04:36:17,2025-11-10 09:36:17,2025-11-05 04:18:17,2025-11-07 11:18:17,2025-11-10 09:36:17,true,,false
+d6687d97-6cb0-427d-9e12-dd6ded119ef9,CHG0000128,Configuration Change: firewall-deve-0188,Configuration Change for firewall-deve-0188. This change involves configuration change activities.,standard,resolved,high,0.7134,9236425a-e2d4-401f-b91f-5be37e89e0f8,f24639db-705d-4ac1-a0be-3de9c28ea784,Configuration Change,Required configuration change to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply configuration change
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Amanda White,James Brown,Lisa Anderson,James Brown,2026-01-27 08:30:56,2026-01-27 11:30:56,2026-01-27 08:36:56,2026-01-27 09:36:56,2026-01-23 08:30:56,2026-01-25 06:30:56,2026-01-27 09:36:56,true,,false
+fb001a33-7e0e-4359-b772-a7f8e046c58e,CHG0000129,Hardware Upgrade: cloudfunction-prod-0073,Hardware Upgrade for cloudfunction-prod-0073. This change involves hardware upgrade activities.,standard,closed,high,0.721,e29547be-9452-480b-a757-30f4840a6bef,b9fe9953-0346-455c-94a1-c5a172a6e7b4,Hardware Upgrade,Required hardware upgrade to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply hardware upgrade
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",David Wilson,Daniel Harris,Emily Davis,Kevin Thompson,2026-01-07 02:31:28,2026-01-07 03:31:28,2026-01-07 02:40:28,2026-01-07 08:40:28,2025-12-28 02:31:28,2025-12-30 10:31:28,2026-01-07 08:40:28,false,Unexpected system behavior during change implementation,false
+abf4778c-8d3d-4dab-8d11-1a1bdd938655,CHG0000130,Software Update: efs-stag-0090,Software Update for efs-stag-0090. This change involves software update activities.,normal,closed,critical,0.8494,2f284e96-d619-41df-bda1-ac64efa78b75,5dde88a6-aa1b-4250-9502-369757c5ad99,Software Update,Required software update to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply software update
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Jessica Garcia,Jennifer Martinez,David Wilson,John Smith,2025-12-24 08:15:25,2025-12-24 12:15:25,2025-12-24 08:23:25,2025-12-24 10:23:25,2025-12-12 08:15:25,2025-12-15 06:15:25,2025-12-24 10:23:25,true,,false
+6f260c77-014e-4e53-af5b-9449efcbe320,CHG0000131,Software Update: notification-test-0209,Software Update for notification-test-0209. This change involves software update activities.,normal,closed,critical,0.9598,0ac19ee3-e222-4517-abd9-a1813ccb8d98,1b317d1b-9bdd-4c2b-bffa-5e53d04b6c26,Software Update,Required software update to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply software update
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",David Wilson,Daniel Harris,Jessica Garcia,David Wilson,2025-11-29 16:59:40,2025-11-29 23:59:40,2025-11-29 16:30:40,2025-11-29 21:30:40,2025-11-17 16:59:40,2025-11-19 15:59:40,2025-11-29 21:30:40,true,,false
+707cf9ba-d6d3-4ae3-bbcd-7f7332c5e99e,CHG0000132,New Deployment: alb-stag-0194,New Deployment for alb-stag-0194. This change involves new deployment activities.,normal,in_progress,medium,0.3758,ae7e6350-96b8-4afe-bbdb-05c4c69472fc,80527c4d-716a-4966-9c08-859ddc506570,New Deployment,Required new deployment to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply new deployment
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Laura Clark,Michelle Robinson,Emily Davis,David Wilson,2026-02-04 14:27:30,2026-02-04 18:27:30,2026-02-04 14:32:30,,2026-01-21 14:27:30,2026-01-21 19:27:30,,,,false
+c3fe39c9-2af6-4ed4-934d-55d557ea2390,CHG0000133,Maintenance Window: appservice-deve-0062,Maintenance Window for appservice-deve-0062. This change involves maintenance window activities.,normal,closed,medium,0.4515,2083c753-6688-49a4-a069-de836477b668,1b317d1b-9bdd-4c2b-bffa-5e53d04b6c26,Maintenance Window,Required maintenance window to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply maintenance window
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Robert Taylor,Sarah Johnson,John Smith,Lisa Anderson,2025-12-03 21:31:50,2025-12-04 00:31:50,2025-12-03 21:38:50,2025-12-04 00:38:50,2025-11-26 21:31:50,2025-11-28 07:31:50,2025-12-04 00:38:50,true,,false
+d2cb2c85-5d3c-433c-b6db-b383a2916450,CHG0000134,Software Update: auth-prod-0264,Software Update for auth-prod-0264. This change involves software update activities.,normal,in_progress,medium,0.4474,3e54714a-006f-484a-853f-962e8575ddd6,,Software Update,Required software update to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply software update
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Daniel Harris,James Brown,Michael Chen,Michael Chen,2025-12-25 01:58:52,2025-12-25 02:58:52,2025-12-25 02:21:52,,2025-12-23 01:58:52,2025-12-23 19:58:52,,,,false
+885f1357-877c-4f93-9efa-414b0f628d2d,CHG0000135,Maintenance Window: rabbitmq-prod-0014,Maintenance Window for rabbitmq-prod-0014. This change involves maintenance window activities.,normal,closed,low,0.1383,1c04e7eb-f642-447d-af1b-4695f68b5815,,Maintenance Window,Required maintenance window to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply maintenance window
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Michael Chen,Christopher Lee,Sarah Johnson,Kevin Thompson,2025-11-20 01:28:05,2025-11-20 02:28:05,2025-11-20 01:03:05,2025-11-20 04:03:05,2025-11-11 01:28:05,2025-11-12 16:28:05,2025-11-20 04:03:05,true,,false
+f2f96069-cb6a-4ec3-952b-6e6d511afa67,CHG0000136,New Deployment: router-prod-0299,New Deployment for router-prod-0299. This change involves new deployment activities.,normal,open,critical,0.8595,26ff72fe-10f8-4e71-8b1d-64f46feecf38,80527c4d-716a-4966-9c08-859ddc506570,New Deployment,Required new deployment to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply new deployment
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Sarah Johnson,Jessica Garcia,,,2026-02-04 02:46:36,2026-02-04 05:46:36,,,2026-01-24 02:46:36,,,,,false
+fef7c091-1489-420a-92e7-d207919f1dbe,CHG0000137,Software Update: vpn-test-0226,Software Update for vpn-test-0226. This change involves software update activities.,standard,in_progress,high,0.6042,0659d065-d6ea-45a3-894b-454ae8379ffd,1b317d1b-9bdd-4c2b-bffa-5e53d04b6c26,Software Update,Required software update to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply software update
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",David Wilson,Daniel Harris,Michelle Robinson,David Wilson,2025-12-12 02:02:02,2025-12-12 03:02:02,2025-12-12 02:28:02,,2025-12-09 02:02:02,2025-12-11 15:02:02,,,,false
+25784e54-609a-4368-90a2-403eb2eeabf1,CHG0000138,New Deployment: ceph-test-0252,New Deployment for ceph-test-0252. This change involves new deployment activities.,normal,in_progress,high,0.68,bf60767a-9e9d-428d-9890-7b7fbaef4e02,8e1c81ff-9d7e-446d-849f-8ac123da8bef,New Deployment,Required new deployment to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply new deployment
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Robert Taylor,John Smith,Daniel Harris,Robert Taylor,2026-01-03 01:48:21,2026-01-03 04:48:21,2026-01-03 02:07:21,,2026-01-02 01:48:21,2026-01-02 13:48:21,,,,false
+e6a8086e-2e62-4753-9d80-c14b0aad544b,CHG0000139,Hardware Upgrade: rabbitmq-test-0046,Hardware Upgrade for rabbitmq-test-0046. This change involves hardware upgrade activities.,standard,open,critical,0.8498,98fa29c3-028f-4408-ade0-45c7a40dfdad,9e0f8d3a-b07a-4be3-8cea-977f89543359,Hardware Upgrade,Required hardware upgrade to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply hardware upgrade
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",James Brown,Jessica Garcia,,,2025-12-25 00:50:15,2025-12-25 03:50:15,,,2025-12-13 00:50:15,,,,,false
+ae6389d8-2ad9-42dc-925e-816806b07663,CHG0000140,Optimization: dns-test-0041,Optimization for dns-test-0041. This change involves optimization activities.,emergency,resolved,critical,0.8214,2ba8a87b-7973-45b2-a13f-47faa763d4ec,7f62fecd-2388-45ac-b906-de6be5343086,Optimization,Required optimization to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply optimization
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Michelle Robinson,Jennifer Martinez,Christopher Lee,David Wilson,2025-12-09 17:47:19,2025-12-09 19:47:19,2025-12-09 17:55:19,2025-12-09 19:55:19,2025-11-28 17:47:19,2025-11-29 07:47:19,2025-12-09 19:55:19,false,Unexpected system behavior during change implementation,true
+445fea97-e203-4b37-8f0e-03ed992cf281,CHG0000141,Maintenance Window: activemq-test-0098,Maintenance Window for activemq-test-0098. This change involves maintenance window activities.,normal,resolved,low,0.2746,c123741a-8a28-48d1-b80c-d67773467c43,0b86f888-18fa-41d7-9f06-8e24157e707a,Maintenance Window,Required maintenance window to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply maintenance window
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Lisa Anderson,Christopher Lee,Sarah Johnson,David Wilson,2025-11-17 07:39:26,2025-11-17 12:39:26,2025-11-17 07:46:26,2025-11-17 08:46:26,2025-11-12 07:39:26,2025-11-13 20:39:26,2025-11-17 08:46:26,true,,false
+1183408a-f77b-4a09-a4e0-180bccdac45b,CHG0000142,Software Update: Infrastructure,Software Update for infrastructure. This change involves software update activities.,emergency,in_progress,medium,0.3756,,,Software Update,Required software update to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply software update
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Robert Taylor,Emily Davis,Daniel Harris,Laura Clark,2025-12-08 22:10:32,2025-12-09 02:10:32,2025-12-08 21:53:32,,2025-12-07 22:10:32,2025-12-10 11:10:32,,,,false
+6d8c1bde-e5e9-4785-a630-59bfbf755310,CHG0000143,Optimization: s3-deve-0256,Optimization for s3-deve-0256. This change involves optimization activities.,normal,closed,high,0.6338,df684f46-a1e2-42d3-8816-d53e166fc715,f9c1269b-0495-436f-b7f9-ba6e77ec6bda,Optimization,Required optimization to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply optimization
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Lisa Anderson,Emily Davis,James Brown,Robert Taylor,2025-11-25 18:36:12,2025-11-25 19:36:12,2025-11-25 18:46:12,2025-11-25 19:46:12,2025-11-23 18:36:12,2025-11-24 18:36:12,2025-11-25 19:46:12,true,,false
+92cb24bc-833e-4a69-88a5-e8dde4290369,CHG0000144,Configuration Change: mongodb-prod-0175,Configuration Change for mongodb-prod-0175. This change involves configuration change activities.,normal,closed,high,0.6876,15ec5d06-931e-4eba-a23f-bb1d2c2f334d,3630dfb9-c14d-4f28-a4f2-4de2fc2c434a,Configuration Change,Required configuration change to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply configuration change
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Jennifer Martinez,Emily Davis,Lisa Anderson,Christopher Lee,2026-01-12 09:53:22,2026-01-12 13:53:22,2026-01-12 10:18:22,2026-01-12 12:18:22,2026-01-04 09:53:22,2026-01-06 19:53:22,2026-01-12 12:18:22,true,,false
+c2619e49-02db-4718-af23-3d6c885c5612,CHG0000145,Rollback: firewall-stag-0012,Rollback for firewall-stag-0012. This change involves rollback activities.,normal,in_progress,medium,0.4943,4c4a3187-86ab-42b5-883b-fb69657d7983,6284d7b3-c605-4370-93f9-97ab0da34b42,Rollback,Required rollback to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply rollback
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Emily Davis,Kevin Thompson,Laura Clark,Sarah Johnson,2026-02-09 09:14:18,2026-02-09 16:14:18,2026-02-09 09:27:18,,2026-01-31 09:14:18,2026-02-02 16:14:18,,,,false
+8721a97a-145b-4d02-bc2c-ff71a0b07ba8,CHG0000146,Hardware Upgrade: Infrastructure,Hardware Upgrade for infrastructure. This change involves hardware upgrade activities.,normal,closed,medium,0.5146,,,Hardware Upgrade,Required hardware upgrade to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply hardware upgrade
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Lisa Anderson,Jennifer Martinez,Jessica Garcia,Christopher Lee,2025-11-26 12:22:14,2025-11-26 13:22:14,2025-11-26 12:26:14,2025-11-26 14:26:14,2025-11-20 12:22:14,2025-11-22 16:22:14,2025-11-26 14:26:14,false,Unexpected system behavior during change implementation,false
+4b50e8d9-8253-4ac3-9d5b-d08cb9a692bc,CHG0000147,Migration: firewall-deve-0188,Migration for firewall-deve-0188. This change involves migration activities.,normal,pending,low,0.2619,9236425a-e2d4-401f-b91f-5be37e89e0f8,f24639db-705d-4ac1-a0be-3de9c28ea784,Migration,Required migration to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply migration
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Robert Taylor,Daniel Harris,,,2025-12-23 07:26:05,2025-12-23 09:26:05,,,2025-12-15 07:26:05,,,,,false
+bf759a2f-553f-4e86-acc1-561da8d7df13,CHG0000148,New Deployment: efs-stag-0090,New Deployment for efs-stag-0090. This change involves new deployment activities.,normal,closed,medium,0.3082,2f284e96-d619-41df-bda1-ac64efa78b75,5dde88a6-aa1b-4250-9502-369757c5ad99,New Deployment,Required new deployment to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply new deployment
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Robert Taylor,Jennifer Martinez,Michelle Robinson,Amanda White,2026-01-20 16:51:33,2026-01-20 23:51:33,2026-01-20 17:09:33,2026-01-20 22:09:33,2026-01-14 16:51:33,2026-01-17 06:51:33,2026-01-20 22:09:33,true,,false
+74fd0f55-4611-46aa-9e21-c04cc1fd682e,CHG0000149,Configuration Change: worker-test-0020,Configuration Change for worker-test-0020. This change involves configuration change activities.,normal,closed,high,0.7807,42f1a97a-01e6-47b4-9089-582e3a478b74,a5f8b430-fb1f-4c8b-b042-5fe74b8fada9,Configuration Change,Required configuration change to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply configuration change
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Robert Taylor,Amanda White,David Wilson,Amanda White,2025-11-19 09:50:28,2025-11-19 13:50:28,2025-11-19 10:06:28,2025-11-19 15:06:28,2025-11-07 09:50:28,2025-11-09 20:50:28,2025-11-19 15:06:28,true,,false
+6888da1c-0ddc-4480-bfc7-b3f7975aedfb,CHG0000150,Rollback: api-deve-0034,Rollback for api-deve-0034. This change involves rollback activities.,emergency,in_progress,critical,0.8178,ad1610bb-19b7-41bf-8d7c-4c4246ba5aea,9c1bf4ca-cf8a-451e-a0a4-3af8f7f10f65,Rollback,Required rollback to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply rollback
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Kevin Thompson,Michael Chen,Jessica Garcia,Lisa Anderson,2025-12-17 00:26:01,2025-12-17 08:26:01,2025-12-17 00:40:01,,2025-12-09 00:26:01,2025-12-09 08:26:01,,,,false
+3e66611c-c484-40a1-a6ae-e30c094c4829,CHG0000151,Optimization: app-stag-0101,Optimization for app-stag-0101. This change involves optimization activities.,standard,resolved,medium,0.5314,55e6ee5c-7cdb-4d54-986a-643aa9c06e7d,,Optimization,Required optimization to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply optimization
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Michael Chen,Kevin Thompson,Laura Clark,Laura Clark,2026-01-26 18:36:27,2026-01-27 02:36:27,2026-01-26 18:30:27,2026-01-26 19:30:27,2026-01-25 18:36:27,2026-01-27 09:36:27,2026-01-26 19:30:27,true,,false
+af246475-6fdc-46ef-a63b-992ba292cc7f,CHG0000152,Rollback: appservice-stag-0224,Rollback for appservice-stag-0224. This change involves rollback activities.,standard,open,medium,0.5046,f4ff1e8e-7197-4752-b1e9-cae2cb64a054,9ce9f7de-26d1-44ff-a36f-b76bcde19def,Rollback,Required rollback to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply rollback
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Laura Clark,Sarah Johnson,,,2025-11-27 16:31:20,2025-11-27 20:31:20,,,2025-11-21 16:31:20,,,,,false
+e3ff6541-cd27-472b-853f-8b4cbe4beaf8,CHG0000153,New Deployment: s3-deve-0096,New Deployment for s3-deve-0096. This change involves new deployment activities.,normal,resolved,high,0.6459,b905cdb4-7dc5-444d-9a69-047d0ee27d6b,,New Deployment,Required new deployment to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply new deployment
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Daniel Harris,Daniel Harris,Christopher Lee,Kevin Thompson,2025-12-04 01:13:51,2025-12-04 06:13:51,2025-12-04 01:25:51,2025-12-04 04:25:51,2025-12-03 01:13:51,2025-12-03 08:13:51,2025-12-04 04:25:51,true,,false
+1459fc27-7433-44b7-8be6-ad6479f701f6,CHG0000154,Security Patch: firewall-prod-0278,Security Patch for firewall-prod-0278. This change involves security patch activities.,normal,pending,low,0.2407,bdea531e-97cf-4ef1-8a63-a5b3a2e3e0a8,0b86f888-18fa-41d7-9f06-8e24157e707a,Security Patch,Required security patch to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply security patch
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Lisa Anderson,Daniel Harris,,,2025-12-21 01:26:38,2025-12-21 06:26:38,,,2025-12-16 01:26:38,,,,,false
+c8b14ae2-40f5-4413-9879-81aa04d629a4,CHG0000155,Configuration Change: reporting-dr-0151,Configuration Change for reporting-dr-0151. This change involves configuration change activities.,normal,resolved,low,0.2486,5396b87f-69d5-49d0-8991-08349380bd98,f9c1269b-0495-436f-b7f9-ba6e77ec6bda,Configuration Change,Required configuration change to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply configuration change
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",James Brown,Emily Davis,Christopher Lee,Daniel Harris,2025-12-07 10:53:20,2025-12-07 15:53:20,2025-12-07 11:16:20,2025-12-07 13:16:20,2025-12-04 10:53:20,2025-12-06 16:53:20,2025-12-07 13:16:20,true,,false
+8a37b7f9-7978-4a75-922f-33139b81b2ed,CHG0000156,Maintenance Window: lambda-test-0173,Maintenance Window for lambda-test-0173. This change involves maintenance window activities.,standard,pending,critical,0.8279,2dc68f81-3734-465e-9874-6d8fae443e1e,0ab6f5c5-ff64-4df7-9fb8-1a2df130551f,Maintenance Window,Required maintenance window to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply maintenance window
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Lisa Anderson,Lisa Anderson,,,2026-01-08 18:17:05,2026-01-09 01:17:05,,,2026-01-02 18:17:05,,,,,false
+ef48376b-57ba-425c-ac03-cf7496d0945e,CHG0000157,Hardware Upgrade: ecs-instance-prod-0190,Hardware Upgrade for ecs-instance-prod-0190. This change involves hardware upgrade activities.,normal,resolved,low,0.1818,6e9a983c-e9f3-4256-b39d-107e3cce882d,,Hardware Upgrade,Required hardware upgrade to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply hardware upgrade
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Laura Clark,Robert Taylor,Daniel Harris,Christopher Lee,2026-01-14 15:40:29,2026-01-14 22:40:29,2026-01-14 15:33:29,2026-01-14 16:33:29,2026-01-05 15:40:29,2026-01-07 18:40:29,2026-01-14 16:33:29,true,,false
+6bc2ff1e-9243-4fa2-b752-c6ece8ecb20f,CHG0000158,Optimization: s3-dr-0148,Optimization for s3-dr-0148. This change involves optimization activities.,standard,in_progress,high,0.7599,220235ac-1664-4bf4-ab9a-3a5e780fff50,,Optimization,Required optimization to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply optimization
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Michael Chen,Emily Davis,Laura Clark,Laura Clark,2025-12-04 12:05:04,2025-12-04 17:05:04,2025-12-04 12:31:04,,2025-11-30 12:05:04,2025-12-01 07:05:04,,,,false
+4ca21ecb-3fa9-4188-820c-7e173d4a07a1,CHG0000159,Maintenance Window: ceph-dr-0138,Maintenance Window for ceph-dr-0138. This change involves maintenance window activities.,standard,open,high,0.7348,fecfed46-06bf-4df6-b042-1f57cd2b4490,b9fe9953-0346-455c-94a1-c5a172a6e7b4,Maintenance Window,Required maintenance window to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply maintenance window
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Amanda White,Michael Chen,,,2025-11-18 01:04:07,2025-11-18 08:04:07,,,2025-11-14 01:04:07,,,,,false
+9432a93b-eb9e-4c54-9382-36851c1d75a9,CHG0000160,Maintenance Window: haproxy-prod-0104,Maintenance Window for haproxy-prod-0104. This change involves maintenance window activities.,standard,resolved,low,0.1858,d2e856c3-c358-4573-80a6-0d47819ad853,0b86f888-18fa-41d7-9f06-8e24157e707a,Maintenance Window,Required maintenance window to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply maintenance window
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Emily Davis,Jennifer Martinez,Michelle Robinson,Kevin Thompson,2025-12-05 01:08:14,2025-12-05 05:08:14,2025-12-05 01:08:14,2025-12-05 07:08:14,2025-11-25 01:08:14,2025-11-27 10:08:14,2025-12-05 07:08:14,true,,false
+986a785d-e7a7-4e23-a45f-c3a837b6a823,CHG0000161,Rollback: memcached-prod-0077,Rollback for memcached-prod-0077. This change involves rollback activities.,emergency,pending,critical,0.8577,c55f29f5-6dc2-48d6-a219-5729b0cc9217,,Rollback,Required rollback to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply rollback
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Sarah Johnson,Jessica Garcia,,,2026-01-28 15:46:48,2026-01-28 17:46:48,,,2026-01-23 15:46:48,,,,,false
+3b059abc-f179-498f-ba7a-65401a98104f,CHG0000162,New Deployment: Infrastructure,New Deployment for infrastructure. This change involves new deployment activities.,standard,resolved,low,0.1976,,,New Deployment,Required new deployment to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply new deployment
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Jennifer Martinez,Jessica Garcia,Daniel Harris,Lisa Anderson,2026-01-25 06:52:33,2026-01-25 07:52:33,2026-01-25 07:10:33,2026-01-25 11:10:33,2026-01-17 06:52:33,2026-01-18 02:52:33,2026-01-25 11:10:33,false,Unexpected system behavior during change implementation,true
+2d6e4adb-277b-4b7c-8cdd-57c8f0edee4b,CHG0000163,New Deployment: k8s-node-deve-0220,New Deployment for k8s-node-deve-0220. This change involves new deployment activities.,emergency,closed,high,0.6329,a5f38f7f-1eca-4e37-9d3d-8e7a401d1fb7,a5f8b430-fb1f-4c8b-b042-5fe74b8fada9,New Deployment,Required new deployment to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply new deployment
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Lisa Anderson,David Wilson,Laura Clark,Christopher Lee,2025-12-23 09:03:17,2025-12-23 16:03:17,2025-12-23 09:07:17,2025-12-23 13:07:17,2025-12-14 09:03:17,2025-12-16 22:03:17,2025-12-23 13:07:17,true,,false
+a5366ecc-9284-4f65-afa5-055be29437fa,CHG0000164,Capacity Expansion: inventory-deve-0174,Capacity Expansion for inventory-deve-0174. This change involves capacity expansion activities.,normal,closed,high,0.6863,ad4fae2e-e2a8-44f5-abc3-21152c8b1acd,b9fe9953-0346-455c-94a1-c5a172a6e7b4,Capacity Expansion,Required capacity expansion to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply capacity expansion
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Emily Davis,Michael Chen,Michelle Robinson,Christopher Lee,2026-01-09 01:03:00,2026-01-09 07:03:00,2026-01-09 00:44:00,2026-01-09 05:44:00,2025-12-27 01:03:00,2025-12-28 17:03:00,2026-01-09 05:44:00,true,,false
+9ebcc229-e2c6-4301-8532-285344335621,CHG0000165,Software Update: efs-prod-0022,Software Update for efs-prod-0022. This change involves software update activities.,standard,closed,medium,0.3748,c345a6a4-7504-45ab-a46f-3495b0dd335a,e62f6318-4753-4bd5-8bd7-54a1f6528b9b,Software Update,Required software update to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply software update
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Emily Davis,Christopher Lee,Christopher Lee,Michael Chen,2025-12-23 01:22:12,2025-12-23 05:22:12,2025-12-23 00:56:12,2025-12-23 02:56:12,2025-12-12 01:22:12,2025-12-13 10:22:12,2025-12-23 02:56:12,true,,false
+aa56f130-8056-4e92-9269-ad7fa35d93e6,CHG0000166,Optimization: lambda-prod-0105,Optimization for lambda-prod-0105. This change involves optimization activities.,standard,in_progress,high,0.6067,a32029af-a989-488c-8538-87cb4c5b3f9d,8187278d-5d57-4ddc-9876-8c1f5b01debf,Optimization,Required optimization to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply optimization
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Amanda White,Amanda White,Daniel Harris,Daniel Harris,2026-01-08 08:02:04,2026-01-08 11:02:04,2026-01-08 07:50:04,,2025-12-27 08:02:04,2025-12-28 00:02:04,,,,false
+74b6d2d8-1936-46f3-97de-30b2d4834cb9,CHG0000167,Optimization: docker-host-prod-0114,Optimization for docker-host-prod-0114. This change involves optimization activities.,normal,closed,medium,0.4385,ad594abc-a87d-45d4-863e-5478c3ac38d5,,Optimization,Required optimization to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply optimization
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Lisa Anderson,Jessica Garcia,Amanda White,James Brown,2026-02-04 03:51:59,2026-02-04 08:51:59,2026-02-04 03:30:59,2026-02-04 09:30:59,2026-01-23 03:51:59,2026-01-25 11:51:59,2026-02-04 09:30:59,false,Unexpected system behavior during change implementation,true
+e611638b-7732-46a5-9f3b-844f5d3c2201,CHG0000168,Hardware Upgrade: nfs-prod-0089,Hardware Upgrade for nfs-prod-0089. This change involves hardware upgrade activities.,emergency,pending,critical,0.8661,4eed41d6-2d62-47e7-8769-1e2c5bc92adc,,Hardware Upgrade,Required hardware upgrade to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply hardware upgrade
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",David Wilson,James Brown,,,2025-11-19 16:40:35,2025-11-19 18:40:35,,,2025-11-15 16:40:35,,,,,false
+f50eff03-500a-457c-8c59-d09ef7d4ea80,CHG0000169,Software Update: lambda-prod-0048,Software Update for lambda-prod-0048. This change involves software update activities.,normal,closed,low,0.1472,0f72061d-a0d6-4e10-ba46-cbaedc365247,a5f8b430-fb1f-4c8b-b042-5fe74b8fada9,Software Update,Required software update to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply software update
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Kevin Thompson,Jessica Garcia,John Smith,Lisa Anderson,2025-11-12 15:04:44,2025-11-12 19:04:44,2025-11-12 14:50:44,2025-11-12 18:50:44,2025-11-03 15:04:44,2025-11-06 00:04:44,2025-11-12 18:50:44,true,,false
+43ba2668-ec73-4d22-992f-ce568075e257,CHG0000170,Security Patch: inventory-deve-0091,Security Patch for inventory-deve-0091. This change involves security patch activities.,normal,resolved,critical,0.8795,a4ed7edb-cee2-4c26-9e55-02f31aac1ad3,0ab6f5c5-ff64-4df7-9fb8-1a2df130551f,Security Patch,Required security patch to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply security patch
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Robert Taylor,Laura Clark,David Wilson,Daniel Harris,2025-12-25 05:17:12,2025-12-25 11:17:12,2025-12-25 05:34:12,2025-12-25 08:34:12,2025-12-17 05:17:12,2025-12-18 18:17:12,2025-12-25 08:34:12,true,,false
+46c9ad1a-68c1-47b6-bc62-95579f49092f,CHG0000171,Software Update: s3-deve-0047,Software Update for s3-deve-0047. This change involves software update activities.,standard,resolved,high,0.6587,27815f95-2212-47be-a562-0af8ad210f2f,5dde88a6-aa1b-4250-9502-369757c5ad99,Software Update,Required software update to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply software update
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Lisa Anderson,Kevin Thompson,Emily Davis,Laura Clark,2026-02-03 04:19:18,2026-02-03 08:19:18,2026-02-03 04:14:18,2026-02-03 05:14:18,2026-01-27 04:19:18,2026-01-27 21:19:18,2026-02-03 05:14:18,true,,false
+9d97582f-dfdf-454f-a0b5-72a10e4dba22,CHG0000172,Hardware Upgrade: k8s-node-deve-0112,Hardware Upgrade for k8s-node-deve-0112. This change involves hardware upgrade activities.,standard,resolved,critical,0.9906,50133837-0d53-423c-adc3-3525fc0fb685,3fa0669e-f615-46f6-a5a6-1bce70f24056,Hardware Upgrade,Required hardware upgrade to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply hardware upgrade
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",James Brown,Michelle Robinson,Lisa Anderson,Emily Davis,2026-01-28 09:01:04,2026-01-28 10:01:04,2026-01-28 08:42:04,2026-01-28 10:42:04,2026-01-25 09:01:04,2026-01-27 06:01:04,2026-01-28 10:42:04,true,,false
+190ea4db-f01c-4d34-9c2d-fb914b27a39c,CHG0000173,Rollback: docker-host-prod-0156,Rollback for docker-host-prod-0156. This change involves rollback activities.,normal,closed,low,0.289,af7308a2-f409-471d-90ab-51431150cea6,8187278d-5d57-4ddc-9876-8c1f5b01debf,Rollback,Required rollback to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply rollback
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Jennifer Martinez,James Brown,Christopher Lee,Amanda White,2026-01-15 17:02:45,2026-01-15 20:02:45,2026-01-15 17:13:45,2026-01-15 20:13:45,2026-01-11 17:02:45,2026-01-13 14:02:45,2026-01-15 20:13:45,true,,false
+354ed4c9-40a6-49d1-8478-1358ba593f6c,CHG0000174,Optimization: redis-deve-0253,Optimization for redis-deve-0253. This change involves optimization activities.,standard,open,low,0.2751,6d2fefcc-d247-4e40-bf71-1a85c5912d94,dfee32ff-83a9-4f98-b35e-f6ec754fd1e6,Optimization,Required optimization to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply optimization
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Christopher Lee,Robert Taylor,,,2025-12-26 22:21:38,2025-12-26 23:21:38,,,2025-12-22 22:21:38,,,,,false
+af121084-ea17-460b-9ad1-d1b23e209781,CHG0000175,Optimization: cloudfunction-stag-0060,Optimization for cloudfunction-stag-0060. This change involves optimization activities.,emergency,resolved,medium,0.5944,e24ecfcc-6f9f-490e-9281-595c7952c66a,5dde88a6-aa1b-4250-9502-369757c5ad99,Optimization,Required optimization to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply optimization
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Michael Chen,Lisa Anderson,Sarah Johnson,Christopher Lee,2026-01-13 09:47:04,2026-01-13 17:47:04,2026-01-13 09:28:04,2026-01-13 14:28:04,2025-12-30 09:47:04,2025-12-30 13:47:04,2026-01-13 14:28:04,true,,false
+23daf339-b6c3-4448-9167-93415288acc2,CHG0000176,Optimization: cloudfunction-stag-0255,Optimization for cloudfunction-stag-0255. This change involves optimization activities.,standard,closed,high,0.675,b0bf1d86-6cf1-4956-a086-f9c0a0ee2b65,b9fe9953-0346-455c-94a1-c5a172a6e7b4,Optimization,Required optimization to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply optimization
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Jennifer Martinez,David Wilson,David Wilson,John Smith,2025-12-12 05:39:36,2025-12-12 11:39:36,2025-12-12 05:46:36,2025-12-12 10:46:36,2025-11-30 05:39:36,2025-12-01 02:39:36,2025-12-12 10:46:36,true,,false
+bf5f2436-5597-48b4-bf4f-6bdf111a757e,CHG0000177,Security Patch: f5-test-0187,Security Patch for f5-test-0187. This change involves security patch activities.,normal,closed,medium,0.4177,a5c64c89-6e19-4330-87bc-9ba55b6d53f8,9c1bf4ca-cf8a-451e-a0a4-3af8f7f10f65,Security Patch,Required security patch to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply security patch
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Laura Clark,Kevin Thompson,Kevin Thompson,Jessica Garcia,2025-11-13 07:45:32,2025-11-13 10:45:32,2025-11-13 08:11:32,2025-11-13 09:11:32,2025-11-09 07:45:32,2025-11-09 15:45:32,2025-11-13 09:11:32,true,,false
+a366bea4-c4f9-46ff-afb7-09d0deddb2d8,CHG0000178,Maintenance Window: efs-prod-0183,Maintenance Window for efs-prod-0183. This change involves maintenance window activities.,normal,closed,low,0.2477,b5aca436-23d9-4045-828f-da8ce3899a0e,0b86f888-18fa-41d7-9f06-8e24157e707a,Maintenance Window,Required maintenance window to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply maintenance window
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Amanda White,Jennifer Martinez,Daniel Harris,Michael Chen,2026-01-30 07:17:10,2026-01-30 08:17:10,2026-01-30 06:59:10,2026-01-30 07:59:10,2026-01-23 07:17:10,2026-01-23 16:17:10,2026-01-30 07:59:10,true,,false
+863ea915-f5b2-440f-a923-001117f8f39e,CHG0000179,Rollback: vpn-prod-0236,Rollback for vpn-prod-0236. This change involves rollback activities.,normal,closed,medium,0.3031,08ff2d78-d479-489a-aa51-c09e0456b5de,7f62fecd-2388-45ac-b906-de6be5343086,Rollback,Required rollback to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply rollback
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Lisa Anderson,Jessica Garcia,John Smith,Michael Chen,2025-12-06 19:27:19,2025-12-06 21:27:19,2025-12-06 19:46:19,2025-12-06 21:46:19,2025-11-22 19:27:19,2025-11-23 01:27:19,2025-12-06 21:46:19,true,,false
+59142112-c9fb-41e8-95a8-bade4eb6d65c,CHG0000180,New Deployment: app-stag-0101,New Deployment for app-stag-0101. This change involves new deployment activities.,standard,resolved,critical,0.8293,55e6ee5c-7cdb-4d54-986a-643aa9c06e7d,,New Deployment,Required new deployment to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply new deployment
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Emily Davis,David Wilson,Daniel Harris,Sarah Johnson,2026-01-23 02:56:19,2026-01-23 04:56:19,2026-01-23 03:09:19,2026-01-23 08:09:19,2026-01-15 02:56:19,2026-01-16 08:56:19,2026-01-23 08:09:19,true,,false
+aff61bd5-b1b8-4fb9-8734-2693502a40a2,CHG0000181,Security Patch: payment-prod-0061,Security Patch for payment-prod-0061. This change involves security patch activities.,normal,closed,high,0.7934,d8f86bc5-085f-411c-81c1-de350666a1cd,541cbcda-42b7-490b-83b8-1e60396f364d,Security Patch,Required security patch to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply security patch
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Michael Chen,Emily Davis,Emily Davis,Daniel Harris,2026-02-07 04:34:06,2026-02-07 12:34:06,2026-02-07 04:07:06,2026-02-07 05:07:06,2026-01-31 04:34:06,2026-02-01 01:34:06,2026-02-07 05:07:06,true,,false
+871d59c5-5908-4751-8b7b-cc742cb1da72,CHG0000182,Configuration Change: f5-deve-0017,Configuration Change for f5-deve-0017. This change involves configuration change activities.,normal,open,medium,0.4572,1022262f-4fcc-44fc-a8c8-931bc9933392,,Configuration Change,Required configuration change to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply configuration change
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Jennifer Martinez,James Brown,,,2025-12-29 07:04:25,2025-12-29 15:04:25,,,2025-12-16 07:04:25,,,,,false
+4a98c52a-1354-4a6d-affb-20a98d301cc8,CHG0000183,Hardware Upgrade: k8s-node-prod-0293,Hardware Upgrade for k8s-node-prod-0293. This change involves hardware upgrade activities.,emergency,closed,medium,0.454,754ff9c8-947e-40b0-a868-92164576adca,fa8b3d62-d044-4c49-8ca7-4efaa127c730,Hardware Upgrade,Required hardware upgrade to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply hardware upgrade
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Amanda White,Emily Davis,David Wilson,Amanda White,2025-12-25 00:05:20,2025-12-25 01:05:20,2025-12-25 00:04:20,2025-12-25 06:04:20,2025-12-21 00:05:20,2025-12-22 02:05:20,2025-12-25 06:04:20,true,,false
+0dd3e273-efbf-4d1e-9d87-bab8ce328d92,CHG0000184,Software Update: blob-prod-0203,Software Update for blob-prod-0203. This change involves software update activities.,standard,pending,high,0.6003,a1623054-56e3-4975-aa73-5116ef57a49d,6284d7b3-c605-4370-93f9-97ab0da34b42,Software Update,Required software update to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply software update
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Christopher Lee,David Wilson,,,2025-12-04 00:04:59,2025-12-04 01:04:59,,,2025-11-20 00:04:59,,,,,false
+d6b1479e-d4dc-42dc-b604-9571d09c9b49,CHG0000185,Configuration Change: notification-deve-0100,Configuration Change for notification-deve-0100. This change involves configuration change activities.,standard,in_progress,high,0.6605,9a0c4139-b430-4d25-bc28-f29889ea9666,c5bcb10b-185b-4c44-a597-6ced6cba68fe,Configuration Change,Required configuration change to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply configuration change
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",John Smith,James Brown,Jessica Garcia,David Wilson,2025-12-31 00:32:59,2025-12-31 07:32:59,2025-12-31 00:53:59,,2025-12-19 00:32:59,2025-12-19 12:32:59,,,,false
+23804c4d-d213-4ecf-8c07-768a2a5cf6a6,CHG0000186,Software Update: sqs-prod-0118,Software Update for sqs-prod-0118. This change involves software update activities.,normal,resolved,critical,1.0,2914ee21-f270-4813-a80a-6b81cc596da4,f24639db-705d-4ac1-a0be-3de9c28ea784,Software Update,Required software update to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply software update
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Jessica Garcia,Daniel Harris,Amanda White,David Wilson,2025-11-22 16:58:24,2025-11-22 20:58:24,2025-11-22 17:27:24,2025-11-22 20:27:24,2025-11-17 16:58:24,2025-11-20 02:58:24,2025-11-22 20:27:24,true,,false
+ebb37e4d-2ed0-4ca7-836f-0570ad69b6cc,CHG0000187,Security Patch: memcached-prod-0080,Security Patch for memcached-prod-0080. This change involves security patch activities.,standard,pending,low,0.1205,749caa4a-d1f6-4712-8fc7-5b422a2a4e35,9e0f8d3a-b07a-4be3-8cea-977f89543359,Security Patch,Required security patch to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply security patch
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Jessica Garcia,Lisa Anderson,,,2026-01-09 13:46:01,2026-01-09 15:46:01,,,2026-01-02 13:46:01,,,,,false
+ae5ffc1c-f102-44fe-89c1-e8782eacd5f2,CHG0000188,Capacity Expansion: s3-prod-0032,Capacity Expansion for s3-prod-0032. This change involves capacity expansion activities.,normal,resolved,medium,0.4545,f303daa9-7e8b-4613-ba94-4914a48a7d31,f9c1269b-0495-436f-b7f9-ba6e77ec6bda,Capacity Expansion,Required capacity expansion to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply capacity expansion
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Amanda White,Emily Davis,Christopher Lee,Christopher Lee,2025-11-20 03:30:29,2025-11-20 04:30:29,2025-11-20 03:14:29,2025-11-20 05:14:29,2025-11-13 03:30:29,2025-11-15 11:30:29,2025-11-20 05:14:29,true,,false
+cb3a8ada-dbec-4fc9-a26c-709d0cd6ffb3,CHG0000189,Software Update: vpn-prod-0147,Software Update for vpn-prod-0147. This change involves software update activities.,standard,closed,low,0.1259,0fd1ec77-7604-4432-97a6-1a34e8f26467,541cbcda-42b7-490b-83b8-1e60396f364d,Software Update,Required software update to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply software update
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Kevin Thompson,Jessica Garcia,Michelle Robinson,Amanda White,2025-11-10 16:20:51,2025-11-10 22:20:51,2025-11-10 16:21:51,2025-11-10 21:21:51,2025-11-09 16:20:51,2025-11-11 23:20:51,2025-11-10 21:21:51,true,,false
+57209cd0-12e7-41b2-abcd-8103b2e0286e,CHG0000190,Rollback: alb-prod-0179,Rollback for alb-prod-0179. This change involves rollback activities.,normal,resolved,medium,0.5476,df214f35-3069-42a1-8440-3b6227ca4637,eab1fa5b-ffa4-4067-bcce-6ce998814034,Rollback,Required rollback to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply rollback
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Robert Taylor,Kevin Thompson,Michelle Robinson,John Smith,2025-12-30 18:05:15,2025-12-30 23:05:15,2025-12-30 18:28:15,2025-12-30 19:28:15,2025-12-26 18:05:15,2025-12-29 11:05:15,2025-12-30 19:28:15,true,,false
+a9a216f3-6868-408d-9359-c0ae038ba753,CHG0000191,Security Patch: auth-prod-0264,Security Patch for auth-prod-0264. This change involves security patch activities.,standard,resolved,low,0.1981,3e54714a-006f-484a-853f-962e8575ddd6,,Security Patch,Required security patch to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply security patch
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Michael Chen,Laura Clark,Lisa Anderson,Michelle Robinson,2025-12-11 12:46:40,2025-12-11 19:46:40,2025-12-11 12:22:40,2025-12-11 16:22:40,2025-11-28 12:46:40,2025-11-29 21:46:40,2025-12-11 16:22:40,true,,false
+18040009-398a-402b-8091-214a89feeae3,CHG0000192,New Deployment: firewall-deve-0188,New Deployment for firewall-deve-0188. This change involves new deployment activities.,normal,resolved,high,0.6082,9236425a-e2d4-401f-b91f-5be37e89e0f8,f24639db-705d-4ac1-a0be-3de9c28ea784,New Deployment,Required new deployment to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply new deployment
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",James Brown,Sarah Johnson,Michelle Robinson,Kevin Thompson,2025-11-22 09:23:20,2025-11-22 11:23:20,2025-11-22 09:38:20,2025-11-22 10:38:20,2025-11-21 09:23:20,2025-11-23 08:23:20,2025-11-22 10:38:20,true,,false
+d5169b8e-c0af-487f-bcb9-711e9df2aa8c,CHG0000193,Hardware Upgrade: payment-test-0025,Hardware Upgrade for payment-test-0025. This change involves hardware upgrade activities.,standard,pending,high,0.7504,416bf5d6-d82d-4108-9771-57ea441b2bfc,,Hardware Upgrade,Required hardware upgrade to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply hardware upgrade
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Laura Clark,Amanda White,,,2025-12-18 00:57:20,2025-12-18 05:57:20,,,2025-12-09 00:57:20,,,,,false
+6369425d-557c-4ddd-9480-fc7f021d433a,CHG0000194,Security Patch: activemq-stag-0013,Security Patch for activemq-stag-0013. This change involves security patch activities.,standard,resolved,low,0.1139,0379392c-03c1-4954-825f-fc3a305deaeb,3630dfb9-c14d-4f28-a4f2-4de2fc2c434a,Security Patch,Required security patch to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply security patch
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Robert Taylor,Laura Clark,John Smith,James Brown,2026-01-02 18:25:27,2026-01-03 00:25:27,2026-01-02 18:22:27,2026-01-03 00:22:27,2025-12-27 18:25:27,2025-12-30 07:25:27,2026-01-03 00:22:27,true,,false
+7949d452-a821-4560-bf29-12d992c64094,CHG0000195,Hardware Upgrade: Infrastructure,Hardware Upgrade for infrastructure. This change involves hardware upgrade activities.,standard,pending,high,0.7429,,,Hardware Upgrade,Required hardware upgrade to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply hardware upgrade
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Kevin Thompson,Robert Taylor,,,2025-12-05 09:54:23,2025-12-05 12:54:23,,,2025-11-28 09:54:23,,,,,false
+18fdd152-48b5-4677-a40a-0827eb7dae40,CHG0000196,Migration: dns-test-0041,Migration for dns-test-0041. This change involves migration activities.,normal,closed,medium,0.5326,2ba8a87b-7973-45b2-a13f-47faa763d4ec,7f62fecd-2388-45ac-b906-de6be5343086,Migration,Required migration to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply migration
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Michelle Robinson,Michelle Robinson,Emily Davis,Amanda White,2025-11-15 06:54:30,2025-11-15 09:54:30,2025-11-15 06:25:30,2025-11-15 07:25:30,2025-11-11 06:54:30,2025-11-13 22:54:30,2025-11-15 07:25:30,false,Unexpected system behavior during change implementation,true
+f1d21149-0322-403a-b70e-2fbda46488a9,CHG0000197,Software Update: cloudfunction-stag-0060,Software Update for cloudfunction-stag-0060. This change involves software update activities.,emergency,closed,medium,0.4905,e24ecfcc-6f9f-490e-9281-595c7952c66a,5dde88a6-aa1b-4250-9502-369757c5ad99,Software Update,Required software update to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply software update
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Robert Taylor,Jennifer Martinez,Michael Chen,Robert Taylor,2026-01-28 05:29:23,2026-01-28 13:29:23,2026-01-28 05:57:23,2026-01-28 08:57:23,2026-01-17 05:29:23,2026-01-18 00:29:23,2026-01-28 08:57:23,false,Unexpected system behavior during change implementation,false
+5fc58a97-9f5a-4b00-bd2a-a0119a0c27f0,CHG0000198,Security Patch: nfs-prod-0089,Security Patch for nfs-prod-0089. This change involves security patch activities.,normal,in_progress,low,0.1338,4eed41d6-2d62-47e7-8769-1e2c5bc92adc,,Security Patch,Required security patch to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply security patch
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Laura Clark,Daniel Harris,Laura Clark,Jennifer Martinez,2026-01-29 09:58:31,2026-01-29 10:58:31,2026-01-29 10:09:31,,2026-01-20 09:58:31,2026-01-22 03:58:31,,,,false
+97cda535-c1b1-4b1d-a464-79ccde2533b6,CHG0000199,Rollback: appservice-deve-0062,Rollback for appservice-deve-0062. This change involves rollback activities.,normal,open,critical,0.9009,2083c753-6688-49a4-a069-de836477b668,1b317d1b-9bdd-4c2b-bffa-5e53d04b6c26,Rollback,Required rollback to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply rollback
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Emily Davis,Michelle Robinson,,,2025-12-30 09:45:42,2025-12-30 14:45:42,,,2025-12-21 09:45:42,,,,,false
+845289a3-d985-4ae9-9a1c-59521c22c17a,CHG0000200,Configuration Change: vpn-prod-0147,Configuration Change for vpn-prod-0147. This change involves configuration change activities.,emergency,closed,critical,1.0,0fd1ec77-7604-4432-97a6-1a34e8f26467,541cbcda-42b7-490b-83b8-1e60396f364d,Configuration Change,Required configuration change to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply configuration change
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Michelle Robinson,Lisa Anderson,James Brown,Amanda White,2026-01-14 05:16:48,2026-01-14 10:16:48,2026-01-14 05:00:48,2026-01-14 07:00:48,2026-01-04 05:16:48,2026-01-05 16:16:48,2026-01-14 07:00:48,true,,false
+ffaa5fdd-f317-44fb-a611-9300439881a5,CHG0000201,Rollback: nfs-deve-0008,Rollback for nfs-deve-0008. This change involves rollback activities.,normal,closed,low,0.1536,0bb99715-e901-46ae-bafb-8a5734066f6c,c5bcb10b-185b-4c44-a597-6ced6cba68fe,Rollback,Required rollback to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply rollback
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Lisa Anderson,Emily Davis,Michael Chen,Michelle Robinson,2025-12-12 17:49:13,2025-12-12 20:49:13,2025-12-12 17:32:13,2025-12-12 21:32:13,2025-12-05 17:49:13,2025-12-06 00:49:13,2025-12-12 21:32:13,false,Unexpected system behavior during change implementation,true
+bdb6784e-986b-4221-ae0b-3bdba8276154,CHG0000202,Software Update: cloudfunction-stag-0133,Software Update for cloudfunction-stag-0133. This change involves software update activities.,standard,open,low,0.1761,16136614-e26d-4045-92e5-9161e3b6a0c0,9e0f8d3a-b07a-4be3-8cea-977f89543359,Software Update,Required software update to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply software update
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Kevin Thompson,David Wilson,,,2026-01-14 14:51:17,2026-01-14 20:51:17,,,2026-01-10 14:51:17,,,,,false
+88f1f48a-ae01-4639-93c7-ca25ee26c10f,CHG0000203,Optimization: Infrastructure,Optimization for infrastructure. This change involves optimization activities.,emergency,pending,critical,0.8848,,,Optimization,Required optimization to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply optimization
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",John Smith,Michael Chen,,,2026-01-21 06:08:42,2026-01-21 11:08:42,,,2026-01-10 06:08:42,,,,,false
+cb10d5ab-299a-41cc-ab5c-4dd8ae1b30ed,CHG0000204,Capacity Expansion: worker-stag-0071,Capacity Expansion for worker-stag-0071. This change involves capacity expansion activities.,emergency,closed,medium,0.4286,0f3a16ca-0be2-443d-b557-92ac62e59943,,Capacity Expansion,Required capacity expansion to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply capacity expansion
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",John Smith,Lisa Anderson,Sarah Johnson,John Smith,2025-11-24 04:14:19,2025-11-24 08:14:19,2025-11-24 04:16:19,2025-11-24 07:16:19,2025-11-18 04:14:19,2025-11-20 16:14:19,2025-11-24 07:16:19,true,,false
+9eb388b5-df0d-45d5-aeeb-eb98b3843601,CHG0000205,Optimization: lambda-prod-0048,Optimization for lambda-prod-0048. This change involves optimization activities.,standard,pending,high,0.763,0f72061d-a0d6-4e10-ba46-cbaedc365247,a5f8b430-fb1f-4c8b-b042-5fe74b8fada9,Optimization,Required optimization to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply optimization
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Amanda White,Daniel Harris,,,2025-12-02 18:41:09,2025-12-02 20:41:09,,,2025-11-25 18:41:09,,,,,false
+510c577c-a0cf-4ebb-ba13-f072208ffd6d,CHG0000206,Security Patch: Infrastructure,Security Patch for infrastructure. This change involves security patch activities.,standard,closed,medium,0.5087,,,Security Patch,Required security patch to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply security patch
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Daniel Harris,Laura Clark,Sarah Johnson,Robert Taylor,2026-01-10 09:18:16,2026-01-10 12:18:16,2026-01-10 09:23:16,2026-01-10 14:23:16,2026-01-05 09:18:16,2026-01-07 19:18:16,2026-01-10 14:23:16,true,,false
+0494dde5-0684-4887-b4e9-431511ccaeda,CHG0000207,Security Patch: rabbitmq-test-0046,Security Patch for rabbitmq-test-0046. This change involves security patch activities.,standard,resolved,high,0.7321,98fa29c3-028f-4408-ade0-45c7a40dfdad,9e0f8d3a-b07a-4be3-8cea-977f89543359,Security Patch,Required security patch to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply security patch
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Lisa Anderson,Laura Clark,Amanda White,Jennifer Martinez,2026-01-01 15:54:12,2026-01-01 22:54:12,2026-01-01 15:55:12,2026-01-01 20:55:12,2025-12-26 15:54:12,2025-12-27 00:54:12,2026-01-01 20:55:12,true,,false
+4045fd63-7ae4-48a7-9f60-321a3199ec6f,CHG0000208,Security Patch: vpn-prod-0236,Security Patch for vpn-prod-0236. This change involves security patch activities.,standard,resolved,high,0.7148,08ff2d78-d479-489a-aa51-c09e0456b5de,7f62fecd-2388-45ac-b906-de6be5343086,Security Patch,Required security patch to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply security patch
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Michelle Robinson,Amanda White,Daniel Harris,Daniel Harris,2026-02-02 11:09:08,2026-02-02 14:09:08,2026-02-02 11:19:08,2026-02-02 12:19:08,2026-01-26 11:09:08,2026-01-28 04:09:08,2026-02-02 12:19:08,true,,false
+8349c1d7-62f4-40b9-8371-3d88fee9a64e,CHG0000209,Rollback: ceph-stag-0137,Rollback for ceph-stag-0137. This change involves rollback activities.,normal,closed,medium,0.4624,66705449-ac2f-4277-ba4b-f06cd7a0115f,c5bcb10b-185b-4c44-a597-6ced6cba68fe,Rollback,Required rollback to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply rollback
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Daniel Harris,David Wilson,Lisa Anderson,Jessica Garcia,2025-12-13 17:19:50,2025-12-14 01:19:50,2025-12-13 16:58:50,2025-12-13 21:58:50,2025-12-11 17:19:50,2025-12-11 22:19:50,2025-12-13 21:58:50,true,,false
+dcaf63f6-2e50-4103-9504-0deb72b92e62,CHG0000210,Migration: mysql-deve-0280,Migration for mysql-deve-0280. This change involves migration activities.,normal,in_progress,medium,0.35,71aa0d31-05a0-4381-8aaa-0d91b0b10b54,7f62fecd-2388-45ac-b906-de6be5343086,Migration,Required migration to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply migration
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Daniel Harris,Jennifer Martinez,Sarah Johnson,Michelle Robinson,2026-01-19 08:42:06,2026-01-19 12:42:06,2026-01-19 08:46:06,,2026-01-06 08:42:06,2026-01-07 22:42:06,,,,false
+9d84cc7b-32f3-4853-9907-42c78cc2ebc0,CHG0000211,Optimization: redis-test-0270,Optimization for redis-test-0270. This change involves optimization activities.,standard,in_progress,medium,0.4561,488e0cb7-350f-4e36-95cd-e35d9a278276,8e1c81ff-9d7e-446d-849f-8ac123da8bef,Optimization,Required optimization to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply optimization
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Amanda White,Michael Chen,James Brown,Emily Davis,2026-01-21 14:17:20,2026-01-21 15:17:20,2026-01-21 13:52:20,,2026-01-14 14:17:20,2026-01-15 02:17:20,,,,false
+3964aed4-ef68-4d91-9698-4d70bd3a51ac,CHG0000212,Hardware Upgrade: inventory-deve-0084,Hardware Upgrade for inventory-deve-0084. This change involves hardware upgrade activities.,normal,closed,critical,0.8989,22396410-1036-47d7-8867-30d3ce4dc70e,9e0f8d3a-b07a-4be3-8cea-977f89543359,Hardware Upgrade,Required hardware upgrade to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply hardware upgrade
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",John Smith,Christopher Lee,Lisa Anderson,Jennifer Martinez,2025-12-01 02:38:24,2025-12-01 06:38:24,2025-12-01 02:38:24,2025-12-01 08:38:24,2025-11-29 02:38:24,2025-11-30 09:38:24,2025-12-01 08:38:24,true,,false
+5b2a8da4-3ddc-4e3b-aa31-42cf1ba1490a,CHG0000213,New Deployment: haproxy-stag-0206,New Deployment for haproxy-stag-0206. This change involves new deployment activities.,standard,in_progress,medium,0.366,ab13aacd-2ee6-4f26-8247-43f33fc36612,,New Deployment,Required new deployment to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply new deployment
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Amanda White,Laura Clark,David Wilson,Robert Taylor,2026-02-02 12:36:22,2026-02-02 18:36:22,2026-02-02 12:54:22,,2026-01-30 12:36:22,2026-02-01 03:36:22,,,,false
+0c408930-e9fa-469d-99a0-7d9df76538c3,CHG0000214,Maintenance Window: nlb-prod-0099,Maintenance Window for nlb-prod-0099. This change involves maintenance window activities.,standard,pending,critical,0.8076,fe658f06-e702-42be-99cb-ac6afde76e99,eab1fa5b-ffa4-4067-bcce-6ce998814034,Maintenance Window,Required maintenance window to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply maintenance window
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Daniel Harris,Michael Chen,,,2025-12-20 12:50:11,2025-12-20 19:50:11,,,2025-12-07 12:50:11,,,,,false
+71426acb-0cb9-4faf-a7e5-5da5aedd2134,CHG0000215,Security Patch: lambda-deve-0065,Security Patch for lambda-deve-0065. This change involves security patch activities.,normal,closed,high,0.6602,3511cf54-07cb-43ed-ace8-a27c1b0ae95f,eddf2c15-98d6-47b7-8dcc-5836e6fc0014,Security Patch,Required security patch to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply security patch
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",David Wilson,Emily Davis,Robert Taylor,Michael Chen,2026-01-28 07:24:16,2026-01-28 08:24:16,2026-01-28 07:49:16,2026-01-28 11:49:16,2026-01-18 07:24:16,2026-01-18 11:24:16,2026-01-28 11:49:16,true,,false
+564af116-afcf-4366-bf4c-910306fc9f46,CHG0000216,Security Patch: mysql-dr-0168,Security Patch for mysql-dr-0168. This change involves security patch activities.,normal,resolved,medium,0.598,0a81b48a-53dd-4342-a938-6a976e652464,,Security Patch,Required security patch to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply security patch
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Jennifer Martinez,Daniel Harris,Kevin Thompson,Amanda White,2025-12-30 10:37:16,2025-12-30 15:37:16,2025-12-30 10:46:16,2025-12-30 16:46:16,2025-12-23 10:37:16,2025-12-25 20:37:16,2025-12-30 16:46:16,true,,false
+5411816a-8f99-4145-8978-6c8ecbb45a5e,CHG0000217,Capacity Expansion: s3-deve-0047,Capacity Expansion for s3-deve-0047. This change involves capacity expansion activities.,emergency,resolved,high,0.7119,27815f95-2212-47be-a562-0af8ad210f2f,5dde88a6-aa1b-4250-9502-369757c5ad99,Capacity Expansion,Required capacity expansion to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply capacity expansion
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Lisa Anderson,Sarah Johnson,Laura Clark,Jessica Garcia,2026-01-22 21:19:06,2026-01-22 22:19:06,2026-01-22 20:56:06,2026-01-23 01:56:06,2026-01-16 21:19:06,2026-01-17 15:19:06,2026-01-23 01:56:06,true,,false
+5988b715-41ba-4a99-9a91-b3b3f06c0301,CHG0000218,Software Update: ceph-prod-0037,Software Update for ceph-prod-0037. This change involves software update activities.,standard,closed,medium,0.4796,cab96c00-b6a3-4909-9176-6d0efba398d0,fa8b3d62-d044-4c49-8ca7-4efaa127c730,Software Update,Required software update to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply software update
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",David Wilson,Emily Davis,Robert Taylor,Christopher Lee,2025-12-30 14:03:37,2025-12-30 21:03:37,2025-12-30 13:59:37,2025-12-30 16:59:37,2025-12-26 14:03:37,2025-12-27 20:03:37,2025-12-30 16:59:37,true,,false
+577a1937-8692-4a4c-a336-e6b11a0fb2bc,CHG0000219,Optimization: activemq-stag-0013,Optimization for activemq-stag-0013. This change involves optimization activities.,standard,pending,medium,0.5753,0379392c-03c1-4954-825f-fc3a305deaeb,3630dfb9-c14d-4f28-a4f2-4de2fc2c434a,Optimization,Required optimization to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply optimization
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Amanda White,Robert Taylor,,,2026-01-30 08:38:53,2026-01-30 11:38:53,,,2026-01-25 08:38:53,,,,,false
+441ca3cd-9555-4244-aed1-ac973e504678,CHG0000220,Migration: Infrastructure,Migration for infrastructure. This change involves migration activities.,standard,in_progress,high,0.6459,,,Migration,Required migration to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply migration
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Michelle Robinson,Sarah Johnson,Christopher Lee,Michelle Robinson,2025-12-18 08:04:42,2025-12-18 15:04:42,2025-12-18 08:05:42,,2025-12-08 08:04:42,2025-12-10 19:04:42,,,,false
+96e7c87d-5424-488b-bb5e-042523030285,CHG0000221,Capacity Expansion: f5-test-0187,Capacity Expansion for f5-test-0187. This change involves capacity expansion activities.,standard,pending,medium,0.492,a5c64c89-6e19-4330-87bc-9ba55b6d53f8,9c1bf4ca-cf8a-451e-a0a4-3af8f7f10f65,Capacity Expansion,Required capacity expansion to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply capacity expansion
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Kevin Thompson,Amanda White,,,2026-01-07 00:11:01,2026-01-07 01:11:01,,,2025-12-29 00:11:01,,,,,false
+994e4c33-e964-4d21-ab54-b3516d51d117,CHG0000222,Hardware Upgrade: sqs-test-0015,Hardware Upgrade for sqs-test-0015. This change involves hardware upgrade activities.,normal,closed,medium,0.5901,d9ae9ac8-6500-4939-bd07-921abefa35f1,0ab6f5c5-ff64-4df7-9fb8-1a2df130551f,Hardware Upgrade,Required hardware upgrade to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply hardware upgrade
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Lisa Anderson,Michelle Robinson,Christopher Lee,Amanda White,2025-12-09 01:15:42,2025-12-09 08:15:42,2025-12-09 01:35:42,2025-12-09 03:35:42,2025-12-04 01:15:42,2025-12-06 05:15:42,2025-12-09 03:35:42,true,,false
+4dfe488e-6146-43ee-a78c-a4ba887f877a,CHG0000223,Maintenance Window: web-prod-0178,Maintenance Window for web-prod-0178. This change involves maintenance window activities.,standard,resolved,low,0.2831,1a4189a7-ca6e-401a-9faf-db9ce91da8b0,,Maintenance Window,Required maintenance window to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply maintenance window
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",David Wilson,Amanda White,Lisa Anderson,Kevin Thompson,2025-11-20 12:08:28,2025-11-20 19:08:28,2025-11-20 12:32:28,2025-11-20 14:32:28,2025-11-08 12:08:28,2025-11-09 12:08:28,2025-11-20 14:32:28,true,,false
+fecec8a1-3f03-4824-b1aa-0bf5919786ce,CHG0000224,Optimization: nfs-prod-0069,Optimization for nfs-prod-0069. This change involves optimization activities.,normal,closed,high,0.711,98d5cdef-7f77-4c57-aeeb-5abcc57e3a54,c5bcb10b-185b-4c44-a597-6ced6cba68fe,Optimization,Required optimization to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply optimization
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Emily Davis,Michael Chen,Jessica Garcia,Robert Taylor,2026-01-26 14:15:33,2026-01-26 15:15:33,2026-01-26 13:50:33,2026-01-26 15:50:33,2026-01-19 14:15:33,2026-01-20 07:15:33,2026-01-26 15:50:33,true,,false
+24668bed-8df7-48c7-8358-96c0411dc9b7,CHG0000225,Migration: Infrastructure,Migration for infrastructure. This change involves migration activities.,normal,resolved,low,0.1049,,,Migration,Required migration to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply migration
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",David Wilson,James Brown,Michael Chen,Lisa Anderson,2026-01-11 12:21:15,2026-01-11 20:21:15,2026-01-11 12:16:15,2026-01-11 16:16:15,2026-01-09 12:21:15,2026-01-12 10:21:15,2026-01-11 16:16:15,true,,false
+bae75566-4f46-4284-bbc6-54189abd379c,CHG0000226,Maintenance Window: activemq-deve-0007,Maintenance Window for activemq-deve-0007. This change involves maintenance window activities.,normal,closed,critical,0.9948,00a96c81-450f-40cf-8952-ec2c2a2fde41,f24639db-705d-4ac1-a0be-3de9c28ea784,Maintenance Window,Required maintenance window to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply maintenance window
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Michelle Robinson,Michael Chen,David Wilson,Emily Davis,2025-12-10 04:03:01,2025-12-10 11:03:01,2025-12-10 04:27:01,2025-12-10 06:27:01,2025-12-07 04:03:01,2025-12-08 17:03:01,2025-12-10 06:27:01,true,,false
+cd00b6a1-3c8c-4178-b923-927205abfb9e,CHG0000227,New Deployment: inventory-stag-0246,New Deployment for inventory-stag-0246. This change involves new deployment activities.,emergency,pending,medium,0.5737,7bfdbd5f-5dee-4887-8f9e-61ceea535b83,,New Deployment,Required new deployment to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply new deployment
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Sarah Johnson,Kevin Thompson,,,2026-01-09 00:23:42,2026-01-09 07:23:42,,,2025-12-28 00:23:42,,,,,false
+cf4ecb34-6481-4f83-ae5a-a065742f2d60,CHG0000228,Configuration Change: reporting-prod-0136,Configuration Change for reporting-prod-0136. This change involves configuration change activities.,normal,closed,critical,0.8584,daea5281-7245-4dbf-96fd-549047824b30,3630dfb9-c14d-4f28-a4f2-4de2fc2c434a,Configuration Change,Required configuration change to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply configuration change
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Jessica Garcia,Robert Taylor,Sarah Johnson,Sarah Johnson,2025-11-27 23:05:09,2025-11-28 01:05:09,2025-11-27 23:07:09,2025-11-28 02:07:09,2025-11-24 23:05:09,2025-11-26 08:05:09,2025-11-28 02:07:09,true,,false
+cc19ab9c-2986-4cc1-b9fd-188b9d2aae0b,CHG0000229,Capacity Expansion: vpn-prod-0147,Capacity Expansion for vpn-prod-0147. This change involves capacity expansion activities.,normal,resolved,high,0.6218,0fd1ec77-7604-4432-97a6-1a34e8f26467,541cbcda-42b7-490b-83b8-1e60396f364d,Capacity Expansion,Required capacity expansion to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply capacity expansion
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",David Wilson,Kevin Thompson,Amanda White,Laura Clark,2025-12-29 17:06:37,2025-12-29 21:06:37,2025-12-29 16:43:37,2025-12-29 18:43:37,2025-12-15 17:06:37,2025-12-16 06:06:37,2025-12-29 18:43:37,true,,false
+d0b90796-1c02-4093-99fb-939c6a158a9d,CHG0000230,Security Patch: elasticsearch-deve-0204,Security Patch for elasticsearch-deve-0204. This change involves security patch activities.,normal,closed,high,0.7113,9643e962-263d-4fe4-a3fe-dd7908849019,ee0ab07b-68f0-4e1e-b88f-9ceeb03e83c7,Security Patch,Required security patch to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply security patch
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Daniel Harris,Lisa Anderson,Michael Chen,Laura Clark,2025-12-14 22:29:33,2025-12-15 01:29:33,2025-12-14 22:09:33,2025-12-14 23:09:33,2025-12-03 22:29:33,2025-12-06 16:29:33,2025-12-14 23:09:33,true,,false
+62337399-5f60-435c-8c49-908de550e09c,CHG0000231,New Deployment: activemq-dr-0035,New Deployment for activemq-dr-0035. This change involves new deployment activities.,standard,pending,medium,0.5854,7a9c55f7-fdf9-4f8d-be48-5f1435aa3c4c,,New Deployment,Required new deployment to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply new deployment
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Robert Taylor,Christopher Lee,,,2026-01-04 20:47:54,2026-01-04 21:47:54,,,2025-12-21 20:47:54,,,,,false
+cb6ed195-a4f2-4285-88d5-04f31782d795,CHG0000232,Migration: sqs-prod-0118,Migration for sqs-prod-0118. This change involves migration activities.,normal,open,medium,0.51,2914ee21-f270-4813-a80a-6b81cc596da4,f24639db-705d-4ac1-a0be-3de9c28ea784,Migration,Required migration to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply migration
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Robert Taylor,Jennifer Martinez,,,2026-01-25 06:07:22,2026-01-25 09:07:22,,,2026-01-11 06:07:22,,,,,false
+0756db7d-4f8e-47ec-9ee3-694fa64c5bcf,CHG0000233,Capacity Expansion: nfs-test-0054,Capacity Expansion for nfs-test-0054. This change involves capacity expansion activities.,standard,in_progress,medium,0.5118,b3736eb9-b219-4e71-85b8-f6a773af7465,7fa559bc-2833-4dcf-ac5b-1e2401d09160,Capacity Expansion,Required capacity expansion to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply capacity expansion
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Michael Chen,Michelle Robinson,Jessica Garcia,Lisa Anderson,2025-12-31 03:50:50,2025-12-31 08:50:50,2025-12-31 04:17:50,,2025-12-23 03:50:50,2025-12-26 00:50:50,,,,false
+52818575-11a6-415b-9281-938443b568c7,CHG0000234,Maintenance Window: proxy-prod-0219,Maintenance Window for proxy-prod-0219. This change involves maintenance window activities.,standard,in_progress,low,0.1428,2ce49ea2-8ac7-486e-8e33-2382e6ddf64c,,Maintenance Window,Required maintenance window to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply maintenance window
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",James Brown,Kevin Thompson,Emily Davis,John Smith,2026-01-23 19:27:47,2026-01-24 01:27:47,2026-01-23 19:27:47,,2026-01-09 19:27:47,2026-01-10 07:27:47,,,,false
+c7494503-5838-40b2-b570-d1c5cfc48276,CHG0000235,Maintenance Window: mongodb-dr-0064,Maintenance Window for mongodb-dr-0064. This change involves maintenance window activities.,normal,closed,low,0.2177,4af68ae3-dc8d-4c1e-92a6-8e0444f351b0,0b86f888-18fa-41d7-9f06-8e24157e707a,Maintenance Window,Required maintenance window to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply maintenance window
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Michelle Robinson,David Wilson,Sarah Johnson,Amanda White,2026-01-09 06:05:50,2026-01-09 11:05:50,2026-01-09 06:22:50,2026-01-09 10:22:50,2025-12-31 06:05:50,2026-01-03 06:05:50,2026-01-09 10:22:50,true,,false
+8091643f-a72e-44b5-8969-6fd3a5872016,CHG0000236,Rollback: inventory-stag-0246,Rollback for inventory-stag-0246. This change involves rollback activities.,emergency,in_progress,medium,0.3837,7bfdbd5f-5dee-4887-8f9e-61ceea535b83,,Rollback,Required rollback to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply rollback
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Michael Chen,Daniel Harris,Robert Taylor,Lisa Anderson,2026-01-03 16:48:54,2026-01-03 23:48:54,2026-01-03 16:20:54,,2025-12-29 16:48:54,2025-12-31 01:48:54,,,,false
+2e85da8d-c3a3-4992-8145-99f7bfa75d1f,CHG0000237,New Deployment: batch-stag-0231,New Deployment for batch-stag-0231. This change involves new deployment activities.,standard,closed,low,0.2302,b1490d08-7145-47ab-b2cf-fd1861aa61f7,7fa559bc-2833-4dcf-ac5b-1e2401d09160,New Deployment,Required new deployment to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply new deployment
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Laura Clark,John Smith,Daniel Harris,Lisa Anderson,2025-12-12 20:28:58,2025-12-12 22:28:58,2025-12-12 20:05:58,2025-12-13 02:05:58,2025-12-02 20:28:58,2025-12-03 19:28:58,2025-12-13 02:05:58,true,,false
+604b0ad8-2865-4e56-b3d0-98e9b1731a22,CHG0000238,Configuration Change: auth-prod-0264,Configuration Change for auth-prod-0264. This change involves configuration change activities.,emergency,resolved,critical,1.0,3e54714a-006f-484a-853f-962e8575ddd6,,Configuration Change,Required configuration change to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply configuration change
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",John Smith,Lisa Anderson,Jennifer Martinez,Lisa Anderson,2026-01-19 08:05:21,2026-01-19 11:05:21,2026-01-19 07:42:21,2026-01-19 08:42:21,2026-01-15 08:05:21,2026-01-16 06:05:21,2026-01-19 08:42:21,true,,false
+8c37af40-0e48-486f-8766-3a643cee1be5,CHG0000239,New Deployment: varnish-prod-0223,New Deployment for varnish-prod-0223. This change involves new deployment activities.,emergency,pending,high,0.6035,68ed92a2-cecd-4396-8f7d-022a501860d9,dfee32ff-83a9-4f98-b35e-f6ec754fd1e6,New Deployment,Required new deployment to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply new deployment
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Daniel Harris,Emily Davis,,,2025-11-16 12:53:34,2025-11-16 20:53:34,,,2025-11-07 12:53:34,,,,,false
+fe463c67-f69a-4866-bce0-2ef7ea7e19e9,CHG0000240,Capacity Expansion: nginx-deve-0197,Capacity Expansion for nginx-deve-0197. This change involves capacity expansion activities.,standard,pending,critical,0.8875,e4d0d5e9-0948-400c-b30e-2f7241066ea1,3fa0669e-f615-46f6-a5a6-1bce70f24056,Capacity Expansion,Required capacity expansion to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply capacity expansion
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Amanda White,Christopher Lee,,,2025-12-20 14:03:16,2025-12-20 18:03:16,,,2025-12-08 14:03:16,,,,,false
+ca970b85-12f3-4780-a3e4-cd4a8151485b,CHG0000241,Security Patch: payment-test-0025,Security Patch for payment-test-0025. This change involves security patch activities.,normal,closed,high,0.7289,416bf5d6-d82d-4108-9771-57ea441b2bfc,,Security Patch,Required security patch to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply security patch
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Christopher Lee,Emily Davis,Sarah Johnson,John Smith,2025-12-21 03:08:27,2025-12-21 06:08:27,2025-12-21 02:58:27,2025-12-21 05:58:27,2025-12-08 03:08:27,2025-12-09 07:08:27,2025-12-21 05:58:27,true,,false
+3cd28d30-2aef-4076-b3cf-74de794a22b1,CHG0000242,Software Update: memcached-test-0207,Software Update for memcached-test-0207. This change involves software update activities.,standard,closed,critical,0.9828,f3577d37-07cd-4e34-9832-4b2efcb32a92,e62f6318-4753-4bd5-8bd7-54a1f6528b9b,Software Update,Required software update to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply software update
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Kevin Thompson,Michael Chen,Christopher Lee,John Smith,2025-11-17 01:16:52,2025-11-17 06:16:52,2025-11-17 01:46:52,2025-11-17 07:46:52,2025-11-03 01:16:52,2025-11-04 23:16:52,2025-11-17 07:46:52,true,,false
+364e0ca9-187a-4369-9e1c-dbdaba2a7e8c,CHG0000243,Migration: Infrastructure,Migration for infrastructure. This change involves migration activities.,emergency,pending,critical,0.8348,,,Migration,Required migration to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply migration
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",John Smith,Daniel Harris,,,2025-12-28 21:35:23,2025-12-28 23:35:23,,,2025-12-26 21:35:23,,,,,false
+1b4be397-4b7d-424b-a081-042e4e54d9e8,CHG0000244,Security Patch: app-test-0116,Security Patch for app-test-0116. This change involves security patch activities.,emergency,in_progress,critical,1.0,2a8cb3d9-3bc6-4761-93c3-06c64e79f707,,Security Patch,Required security patch to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply security patch
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Robert Taylor,Laura Clark,Sarah Johnson,John Smith,2025-11-12 04:04:59,2025-11-12 10:04:59,2025-11-12 03:59:59,,2025-11-03 04:04:59,2025-11-03 20:04:59,,,,false
+ebf590bc-91bf-44f3-99c4-e52fe1276b9d,CHG0000245,Hardware Upgrade: postgres-deve-0281,Hardware Upgrade for postgres-deve-0281. This change involves hardware upgrade activities.,standard,resolved,low,0.2618,fa29e6eb-2a30-4468-a7d2-98fb9f86cc1f,eddf2c15-98d6-47b7-8dcc-5836e6fc0014,Hardware Upgrade,Required hardware upgrade to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply hardware upgrade
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",John Smith,Jennifer Martinez,Michelle Robinson,Emily Davis,2026-01-18 16:56:06,2026-01-18 23:56:06,2026-01-18 16:50:06,2026-01-18 21:50:06,2026-01-11 16:56:06,2026-01-12 16:56:06,2026-01-18 21:50:06,true,,false
+b98883a3-03a4-4bb5-8dec-ea1ba00f0bda,CHG0000246,Optimization: api-deve-0038,Optimization for api-deve-0038. This change involves optimization activities.,normal,closed,medium,0.3913,fddc42c8-14d7-43b0-bd54-011f76e1b565,541cbcda-42b7-490b-83b8-1e60396f364d,Optimization,Required optimization to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply optimization
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Daniel Harris,John Smith,Jennifer Martinez,David Wilson,2025-12-27 09:20:18,2025-12-27 12:20:18,2025-12-27 09:19:18,2025-12-27 10:19:18,2025-12-20 09:20:18,2025-12-22 11:20:18,2025-12-27 10:19:18,true,,false
+c68e6189-4c81-4a52-9ab7-6dea16e10f3a,CHG0000247,Migration: ecs-instance-test-0184,Migration for ecs-instance-test-0184. This change involves migration activities.,standard,pending,high,0.6136,f5843d2b-a319-483e-aa69-f0d891590fe6,1b317d1b-9bdd-4c2b-bffa-5e53d04b6c26,Migration,Required migration to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply migration
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Daniel Harris,John Smith,,,2026-02-01 06:48:44,2026-02-01 09:48:44,,,2026-01-22 06:48:44,,,,,false
+a5b81968-8c55-4de9-a41c-8d619807a40a,CHG0000248,Software Update: k8s-node-prod-0293,Software Update for k8s-node-prod-0293. This change involves software update activities.,standard,pending,medium,0.3948,754ff9c8-947e-40b0-a868-92164576adca,fa8b3d62-d044-4c49-8ca7-4efaa127c730,Software Update,Required software update to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply software update
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Jessica Garcia,Christopher Lee,,,2025-12-02 14:27:35,2025-12-02 22:27:35,,,2025-11-19 14:27:35,,,,,false
+e3590ae4-2c2e-4f61-a83b-b5422d514bf8,CHG0000249,Security Patch: mysql-test-0234,Security Patch for mysql-test-0234. This change involves security patch activities.,normal,closed,medium,0.3326,6248a644-c43d-43eb-8614-d8a47f11dd1b,6284d7b3-c605-4370-93f9-97ab0da34b42,Security Patch,Required security patch to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply security patch
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Emily Davis,David Wilson,Robert Taylor,Michael Chen,2025-11-21 16:49:51,2025-11-21 21:49:51,2025-11-21 16:57:51,2025-11-21 18:57:51,2025-11-13 16:49:51,2025-11-15 21:49:51,2025-11-21 18:57:51,true,,false
+e80f1f23-5b8b-476a-8809-0794f99faee0,CHG0000250,Configuration Change: inventory-deve-0091,Configuration Change for inventory-deve-0091. This change involves configuration change activities.,normal,resolved,medium,0.3802,a4ed7edb-cee2-4c26-9e55-02f31aac1ad3,0ab6f5c5-ff64-4df7-9fb8-1a2df130551f,Configuration Change,Required configuration change to improve system stability and performance,"1. Pre-checks
+2. Backup current state
+3. Apply configuration change
+4. Verify
+5. Rollback if needed","1. Stop change
+2. Restore from backup
+3. Verify service restoration
+4. Notify stakeholders","1. Functional testing
+2. Performance validation
+3. Integration check",Robert Taylor,Jessica Garcia,Robert Taylor,David Wilson,2026-01-25 05:11:38,2026-01-25 07:11:38,2026-01-25 04:44:38,2026-01-25 10:44:38,2026-01-19 05:11:38,2026-01-21 18:11:38,2026-01-25 10:44:38,true,,false
